@@ -1,0 +1,632 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elytra_start"
+	group: "258CD569623A7A73"
+	icon: {
+		Count: 1
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4E1A7C2B9D03F586"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Skeletons are a good first test for your new sidearm. Take out three of them."]
+			id: "1B6D4F0A8C27E359"
+			rewards: [
+				{
+					id: "5C0F2A8D6E1B3794"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:m1911"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "2D8B6A4F1C09E573"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "7A3E9C15B0D2468F"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Target Practice"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B6D4F0A8C27E359"]
+			description: ["Glide a total of one kilometre with an elytra."]
+			id: "6F3A1D8E5B0C2947"
+			rewards: [{
+				count: 32
+				id: "7538B168B88DA372"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E7C5A3B9D1F2684"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 100000
+			}]
+			title: "First Flight"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3A1D8E5B0C2947"]
+			description: ["Phantoms own the sky at night. Shoot down five of them."]
+			id: "3B9E6D0A4C1F7582"
+			rewards: [{
+				count: 48
+				id: "4832337BE303AF45"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "3D8FA82DF7DCF45B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Night Sky Hunter"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B9E6D0A4C1F7582"]
+			description: ["Pillager outposts are easy to spot from the air. Find one, but stay out of crossbow range."]
+			id: "7E0B3A5D9C2F1846"
+			rewards: [{
+				count: 64
+				id: "47D3D81E8F816B0C"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C8A4F6E0B3D9275"
+				structure: "minecraft:pillager_outpost"
+				type: "structure"
+			}]
+			title: "Outpost Scout"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3A1D8E5B0C2947"]
+			description: ["Fly five kilometres in total. No rush, just enjoy the view."]
+			id: "77403BCC49B91B4E"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "5196C2B41BD06C1D"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Optional"
+			tasks: [{
+				id: "1CA77CFB901C38EB"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 500000
+			}]
+			title: "Scenic Route"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Ten kilometres in the air. Bring spare rockets and something to repair your wings."]
+			id: "6E34BAA536A5BB06"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "4F9627705FEA8687"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7890F33D6A49DF0B"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "26CAACE1D6933C94"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33C96B69F58C204F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Optional"
+			tasks: [{
+				id: "01279E52E39543CA"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "Long Haul"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B6D4F0A8C27E359"]
+			description: ["Take a trip through a Nether portal."]
+			id: "4FD36981BB54C6E2"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "02DBE13652A315B5"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Optional"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6C180BD1269D1F4B"
+				type: "dimension"
+			}]
+			title: "Nether Glider"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B9E6D0A4C1F7582"]
+			description: ["Find the stronghold and step through the End portal."]
+			id: "107DE80F4731A1E8"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "7F6B9746CBEC4723"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Optional"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "62400020635CD93F"
+				type: "dimension"
+			}]
+			title: "Into the End"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["107DE80F4731A1E8"]
+			description: [
+				"Find an elytra in an End city ship."
+				"Reward: an unbreakable netherite chestplate to wear under your wings."
+			]
+			id: "46FFE18B522B776D"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "5F543F82AF41BF56"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "63C40512568434F4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\": \"Skyfarer's Plate\", \"italic\": false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "31C2DAB5C9D7FCE2"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "00E7FE579162324F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Optional"
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "2D1EBCF9873DF931"
+				type: "advancement"
+			}]
+			title: "Sky's the Limit"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["Ghasts float, and so do you. Take one down."]
+			id: "6320A9AF96952E8E"
+			rewards: [
+				{
+					count: 64
+					id: "0B4636B269565767"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "2BC843A791319F02"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:ak47"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "0091188CA9E937F8"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "4C09C18B8596CA1D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "6A6BD2CB56EF5BAA"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "7CE4CD7C947624E7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ghast Hunter"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B9E6D0A4C1F7582"]
+			description: ["Something is sleeping beneath the ground. Find an Ancient City, and be quiet about it."]
+			id: "55431678F31490D1"
+			rewards: [
+				{
+					count: 64
+					id: "54ADDF95EEE1D9C9"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "35B579314E00CB85"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m700"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "20483E0D84376A0A"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:30_06"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7E241D06895CF0F3"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:30_06"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				id: "049034F5E9982A5B"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Deep Dark Delve"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B9E6D0A4C1F7582"]
+			description: ["Raid an ocean monument and defeat its elder guardian."]
+			id: "4E86919D1D5FF324"
+			rewards: [
+				{
+					count: 64
+					id: "1C54388F11F5C2A4"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "445141E74125DB56"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74A8135D5B236FCC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "679705854B1CB732"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Elder's Wrath"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6320A9AF96952E8E"]
+			description: ["Summon the Wither and survive. Flying helps."]
+			id: "52F2C80C1CFF1843"
+			rewards: [
+				{
+					count: 64
+					id: "7D0CCFCE800CF246"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D2053CA7DCDF2C1"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1EC22FD302E380C9"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "5903D330435CC0F3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wither Sky"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["107DE80F4731A1E8"]
+			description: ["Land on an End city and claim what's inside."]
+			id: "07CAF7E8360FA04B"
+			rewards: [
+				{
+					count: 64
+					id: "40659AC7316A7A5F"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "709FCEEBC739D7C9"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				id: "1AF70AAC988DF722"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "End City Raid"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07CAF7E8360FA04B"]
+			description: ["The big one. Defeat the Ender Dragon."]
+			id: "4C9430A7798ACB77"
+			rewards: [
+				{
+					count: 64
+					id: "7A1A8F0825516DDE"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "32D34AAFFA682322"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "19014FDA29A6E69B"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "547C3A9FFE2E4790"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:m4a1"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7687D46CAD927630"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "77ECD5F68B28E852"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "4F549B833B7DC65F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "5BA6273DC4EE7A28"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0823A0E04304DD6B"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hard"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1991CB3FCDAA8A0A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dragon Slayer"
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+	title: "Taking Flight"
+}

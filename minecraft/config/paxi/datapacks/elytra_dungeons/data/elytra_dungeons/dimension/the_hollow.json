@@ -1,0 +1,18 @@
+{
+  "type": "elytra_dungeons:the_hollow",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "elytra_dungeons:hollow",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

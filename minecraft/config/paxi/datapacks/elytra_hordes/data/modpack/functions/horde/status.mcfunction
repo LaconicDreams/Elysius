@@ -1,0 +1,4 @@
+# TEST: /function modpack:horde/status shows your cooldown, eligible timer and nearby horde zombies.
+execute store result score #near mh_tmp if entity @e[type=#elytra_hordes:horde_types,tag=modpack_horde,distance=..128]
+execute store result score #all mh_tmp if entity @e[type=#elytra_hordes:horde_types,tag=modpack_horde]
+tellraw @s ["",{"text":"[Hordes] ","color":"dark_green"},{"text":"cooldown left: "},{"score":{"name":"@s","objective":"mh_cd"}},{"text":" s | eligible timer: "},{"score":{"name":"@s","objective":"mh_timer"}},{"text":"/"},{"score":{"name":"#roll_every_s","objective":"mh_cfg"}},{"text":" s | chance per roll: "},{"score":{"name":"#chance_pct","objective":"mh_cfg"}},{"text":"% | horde zombies within 128: "},{"score":{"name":"#near","objective":"mh_tmp"}},{"text":", loaded total: "},{"score":{"name":"#all","objective":"mh_tmp"}}]

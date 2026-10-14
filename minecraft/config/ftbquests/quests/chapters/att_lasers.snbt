@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_lasers"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:laser_nightstick"
+		}
+	}
+	id: "57763A44AC310B52"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 4x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:laser_compact"
+				}
+			}
+			id: "6384DA70B0AEDF47"
+			rewards: [{
+				auto: "no_toast"
+				id: "0A78B0CFCD2F7957"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:laser_compact"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Laser"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "082A879C0176F29A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "22916B8F3DAEBEB1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Compact Laser"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:laser_lopro"
+				}
+			}
+			id: "0D97849CDE9294B8"
+			rewards: [{
+				auto: "no_toast"
+				id: "1B42D38E7B4A2CFD"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:laser_lopro"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Laser"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "697233C33D7B0022"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "4ADE31610E5F24B1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Lopro Laser"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 4x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:laser_nightstick"
+				}
+			}
+			id: "4F33A7B24E5F19B8"
+			rewards: [{
+				auto: "no_toast"
+				id: "19424A5A52D8AA92"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:laser_nightstick"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Laser"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "4C34C5BA094E8EDA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "363D549242BAF9E2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Nightstick Laser"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 4x Redstone Dust + 1x Amethyst Shard."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:laser_peq6"
+				}
+			}
+			id: "59FC60A2FCD404AD"
+			rewards: [{
+				auto: "no_toast"
+				id: "45F0B6784E652801"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:laser_peq6"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Laser"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "1888AA6753CCC8C8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "18F942465351A72D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "12A0FC1980D10B4E"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			title: "PEQ6 Laser"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Attachments: Lasers"
+}

@@ -1,0 +1,569 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_grips"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:grip_td"
+		}
+	}
+	id: "5A16A89D5E8B2FDF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 6x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_cobra"
+				}
+			}
+			id: "5AC71CD393A93842"
+			rewards: [{
+				auto: "no_toast"
+				id: "0CA40DA0EE10DD59"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_cobra"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "316667EEF467C895"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "0E22F8C466F99127"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Cobra Grip"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_magpul_afg_2"
+				}
+			}
+			id: "7ED954255CD09F7B"
+			rewards: [{
+				auto: "no_toast"
+				id: "25EF45934BD37EB1"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_magpul_afg_2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "66256612CE833E7C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "43B323B85021D384"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Magpul AFG 2 Grip"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_osovets_black"
+				}
+			}
+			id: "0A2D0C025A09399B"
+			rewards: [{
+				auto: "no_toast"
+				id: "0C61C66D88334E30"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_osovets_black"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "0733DD7B1D3D0040"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "570C3B7D8C526B8E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Osovets Black Grip"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 11x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_rk0"
+				}
+			}
+			id: "3D639C3E2CCCB963"
+			rewards: [{
+				auto: "no_toast"
+				id: "12DC976D9482CB85"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_rk0"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 11L
+					disable_toast: true
+					id: "3CAB3EF80A42785D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "370821814D1DF0B2"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "RK0 Grip"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_rk1_b25u"
+				}
+			}
+			id: "3949974A3701946A"
+			rewards: [{
+				auto: "no_toast"
+				id: "493F3E6412DE2609"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_rk1_b25u"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "46C3D2DFB0771C5F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "21B33F8211BDB5C1"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "RK1 B25U Grip"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 2x Iron Ingot + 1x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_rk6"
+				}
+			}
+			id: "417669C2BCB315C7"
+			rewards: [{
+				auto: "no_toast"
+				id: "43252F1F49557FE2"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_rk6"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "020EA4D0DE8D333D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "567A96D47D095442"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "RK6 Grip"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_se_5"
+				}
+			}
+			id: "45DBB957C952FCFF"
+			rewards: [{
+				auto: "no_toast"
+				id: "62523BB91BC6896F"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_se_5"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "3A15A85CF8CC5F60"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "506BB57CADDA5ADC"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "SE 5 Grip"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_td"
+				}
+			}
+			id: "44DE1E19C202F1A5"
+			rewards: [{
+				auto: "no_toast"
+				id: "204E639C89ECD67D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_td"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "243184EC48F10213"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "647489074318674E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "TD Grip"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_vertical_military"
+				}
+			}
+			id: "61DE4EA5DD54C034"
+			rewards: [{
+				auto: "no_toast"
+				id: "63BC2F77CC976445"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_vertical_military"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "1FBAD93C9D586EFA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "15847BD6F55A8F71"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Vertical Military Grip"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 6x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_vertical_ranger"
+				}
+			}
+			id: "6ED7A011AA3A060C"
+			rewards: [{
+				auto: "no_toast"
+				id: "617E8D6F01C29B47"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_vertical_ranger"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "056417E3ADD5C589"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "02128F0722205A0F"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Vertical Ranger Grip"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 11x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_vertical_talon"
+				}
+			}
+			id: "62D4A39FC8B51F1E"
+			rewards: [{
+				auto: "no_toast"
+				id: "49E416760C33D60A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:grip_vertical_talon"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Grip"
+			tasks: [
+				{
+					consume_items: true
+					count: 11L
+					disable_toast: true
+					id: "66197C4090DF9230"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "622BB9DD6CD307B2"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Vertical Talon Grip"
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "Attachments: Grips"
+}

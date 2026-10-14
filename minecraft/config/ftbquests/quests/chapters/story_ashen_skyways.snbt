@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "story_ashen_skyways"
+	group: "258CD569623A7A73"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:written_book"
+	id: "37BF8035342B7FF9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In alten Zeiten kämpfte man unerbittlich mit Stahl gegen die Dunkelheit des Nethers, doch nur der goldene Aether hielt die Ungeheuer der Nacht fern."]
+			icon: "minecraft:iron_ingot"
+			id: "4880C8248029A9AF"
+			rewards: [{
+				id: "6A3030EFFEF72E52"
+				item: "aether:golden_oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "16AAE825F192E1C1"
+				type: "advancement"
+			}]
+			title: "Eisern aber weich"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Fun Fact: Kupfer ist tatsächlich antibakteriell, ob das auch für die fliegenden Kugeln gilt?"]
+			icon: "minecraft:copper_ingot"
+			id: "6A5F64528425C9FB"
+			rewards: [{
+				id: "461C63076D1DCC83"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E4A3E83C074FF7"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Kupferpfeil"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4880C8248029A9AF"
+				"6A5F64528425C9FB"
+			]
+			description: ["Das war ein Griff ins Klo - und wer ist dieser komische Vogel?"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I; 1263553393, -1146730201, -1859123571, 1047282817]
+						Name: "Kackhaufen"
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVmYmM3N2M5NzU2MDZmZGNiYzM0NzQwOWM1MmMxNmNiMWVjZThmNzQyODJjMjQ5NjhjODE3MTdkNjJiYzE3NCJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: ["{\"text\":\"Deko. Kann auf den Boden gestellt werden.\",\"color\":\"gray\",\"italic\":false}"]
+						Name: "{\"text\":\"Kackhaufen\",\"color\":\"#8B5A2B\",\"italic\":false}"
+					}
+				}
+			}
+			id: "7EB10CEDF0E4C79D"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @s run function elytra_extras:messenger/arrive"
+				elevate_perms: true
+				id: "60152310C0211B9F"
+				silent: true
+				type: "command"
+			}]
+			subtitle: "Was passiert, wenn ich beides kombiniere?"
+			tasks: [{
+				advancement: "elytra_extras:kackhaufen"
+				criterion: ""
+				id: "340D93E1088AF6F5"
+				type: "advancement"
+			}]
+			title: "Schwerter und Kugeln"
+			x: 0.75d
+			y: 1.5d
+		}
+	]
+	title: "Zwischen den Zeiten"
+}

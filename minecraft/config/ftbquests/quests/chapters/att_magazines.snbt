@@ -1,0 +1,656 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_magazines"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:extended_mag_3"
+		}
+	}
+	id: "0CA134468DFC271B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 4x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_1"
+				}
+			}
+			id: "664D21DCACAF1E4D"
+			rewards: [{
+				auto: "no_toast"
+				id: "4972A9CCE7E9250D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:extended_mag_1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "434D05E3C7BF07D2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "5395144354973288"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Extended Mag I"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 20x Iron Ingot + 8x Gold Ingot + 8x Lapis Lazuli."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_2"
+				}
+			}
+			id: "0457945516BD83E7"
+			rewards: [{
+				auto: "no_toast"
+				id: "2D3D19A0646104EB"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:extended_mag_2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					disable_toast: true
+					id: "12FD4351F87F9409"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "75C71F2BFE0A7887"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "77D80FAE1E2941F5"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Extended Mag II"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 32x Iron Ingot + 12x Gold Ingot + 3x Diamond."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_3"
+				}
+			}
+			id: "6ECD5D93A32628A2"
+			rewards: [{
+				auto: "no_toast"
+				id: "3B42CF3047A030CF"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:extended_mag_3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					disable_toast: true
+					id: "243BC49F07384960"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "28A233B8D2DE66D9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "24FE49D107E7DA43"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Extended Mag III"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_1"
+				}
+			}
+			id: "5E9AB364367205BF"
+			rewards: [{
+				auto: "no_toast"
+				id: "59DDEA029C03A86F"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:light_extended_mag_1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "48D7CB9CB67EF39F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Light Extended Mag I"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 8x Lapis Lazuli."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_2"
+				}
+			}
+			id: "5A210989A21CCF48"
+			rewards: [{
+				auto: "no_toast"
+				id: "3C4864E29E0DC128"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:light_extended_mag_2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "72BE42D41B9400E5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "16C0D3E637EE426D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Light Extended Mag II"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 8x Lapis Lazuli + 4x Nether Quartz."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_3"
+				}
+			}
+			id: "3E6A6806D985C3D9"
+			rewards: [{
+				auto: "no_toast"
+				id: "7C17055042905D57"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:light_extended_mag_3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "17E1A41A4AD0890B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "2F2DAD302EAC19E2"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "62127A9A534F2B1C"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Light Extended Mag III"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:shotgun_extended_mag_1"
+				}
+			}
+			id: "245174F35F2AE4F2"
+			rewards: [{
+				auto: "no_toast"
+				id: "5415DB3583513B23"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:shotgun_extended_mag_1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "33418842C30D25A9"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Shotgun Extended Mag I"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 2x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:shotgun_extended_mag_2"
+				}
+			}
+			id: "747EC961937E26B4"
+			rewards: [{
+				auto: "no_toast"
+				id: "5E951AF85FE396FA"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:shotgun_extended_mag_2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "151554A9E3C12259"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "2CF0875F9937BF15"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Shotgun Extended Mag II"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 24x Iron Ingot + 5x Gold Ingot + 8x Lapis Lazuli."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:shotgun_extended_mag_3"
+				}
+			}
+			id: "32DC5A882D9C94C5"
+			rewards: [{
+				auto: "no_toast"
+				id: "381439F611081593"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:shotgun_extended_mag_3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					disable_toast: true
+					id: "63245AC5404139DD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "4B4323D5AEF5BAC3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "0A242E24E49A037C"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Shotgun Extended Mag III"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 6x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sniper_extended_mag_1"
+				}
+			}
+			id: "2067BA8DB4F4230E"
+			rewards: [{
+				auto: "no_toast"
+				id: "1FE79A2F0BF4C8E8"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sniper_extended_mag_1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "3A63E08747F8C5FE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "5FDE67EBA847EB93"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Sniper Extended Mag I"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 26x Iron Ingot + 12x Gold Ingot + 12x Lapis Lazuli."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sniper_extended_mag_2"
+				}
+			}
+			id: "60C89A5A6726B92F"
+			rewards: [{
+				auto: "no_toast"
+				id: "1670EBF698B8EB1D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sniper_extended_mag_2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 26L
+					disable_toast: true
+					id: "79A08DFA373B9D33"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "4B1D62B7BF094A5F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "4045F9D46436A2B0"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Sniper Extended Mag II"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 36x Iron Ingot + 16x Gold Ingot + 8x Nether Quartz + 5x Diamond."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sniper_extended_mag_3"
+				}
+			}
+			id: "733FE0A7CFA487B9"
+			rewards: [{
+				auto: "no_toast"
+				id: "0CC8981F804E835D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sniper_extended_mag_3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magazine"
+			tasks: [
+				{
+					consume_items: true
+					count: 36L
+					disable_toast: true
+					id: "253EF855803C0CDE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "3F3372F6D427F333"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "490568B6BB80A57A"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "3D37E12E3D05571D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Sniper Extended Mag III"
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+	title: "Attachments: Magazines"
+}

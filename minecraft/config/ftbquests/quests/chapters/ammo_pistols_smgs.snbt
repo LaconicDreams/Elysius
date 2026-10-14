@@ -1,0 +1,749 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "ammo_pistols_smgs"
+	group: "12676BC35DAABE4A"
+	icon: {
+		Count: 1
+		id: "tacz:ammo"
+		tag: {
+			AmmoId: "tacz:9mm"
+		}
+	}
+	id: "522CE744F261E071"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 5 rounds of 9mm."
+				"Fits: B93R, CZ 75, Glock 17, HK MP5A5, M9A4, Uzi"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "40181A41232F91B5"
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "455AE71F7E4B3BCD"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: B93R, CZ 75, Glock 17 +3"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "115124E07A61F8D1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "9mm Ammo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 60 rounds of 9mm."
+				"Fits: B93R, CZ 75, Glock 17, HK MP5A5, M9A4, Uzi"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "2A85B482A8AA9AF2"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "1C18A4364B257DD6"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: B93R, CZ 75, Glock 17 +3"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "1D61C4EE5A7B809D"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "9mm Ammo x60"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 5 rounds of .45 ACP."
+				"Fits: HK Mk23, M1911, P320, UMP45, Vector 45"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+			id: "58CDB7821E861875"
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "0E183986192FD9F3"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45acp"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: HK Mk23, M1911, P320 +2"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0ACA2EB240BDD155"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".45 ACP Ammo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 60 rounds of .45 ACP."
+				"Fits: HK Mk23, M1911, P320, UMP45, Vector 45"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+			id: "586DD67DED82F28A"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "0CDA6809D15C46A2"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45acp"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: HK Mk23, M1911, P320 +2"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "7792BEDDA3352849"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".45 ACP Ammo x60"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 8 rounds of .22 WMR."
+				"Fits: Taurus 943"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:22wmr"
+				}
+			}
+			id: "3C1C957C580E068A"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "6E6EFA297C017D4D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:22wmr"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Taurus 943"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "37E5142D400AB15B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".22 WMR Ammo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"8x Copper Ingot = 64 rounds of .22 WMR."
+				"Fits: Taurus 943"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:22wmr"
+				}
+			}
+			id: "62D974DB059733E3"
+			rewards: [{
+				auto: "no_toast"
+				count: 64
+				id: "0A47F056098F3207"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:22wmr"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Taurus 943"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "626A4656A60BCA41"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".22 WMR Ammo x64"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 5 rounds of 4.6x30."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:46x30"
+				}
+			}
+			id: "5EE2D6608964B7E2"
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "394DE857D5022735"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:46x30"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "481C52886910B704"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "4.6x30 Ammo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 60 rounds of 4.6x30."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:46x30"
+				}
+			}
+			id: "62CEF4C70EACFA27"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "1A5F82448FAE88A3"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:46x30"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "207182ACD0C8B8DF"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "4.6x30 Ammo x60"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 5 rounds of 5.7x28."
+				"Fits: P90"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:57x28"
+				}
+			}
+			id: "50064ADEC83E071A"
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "6F60903E4AB29384"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:57x28"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: P90"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4089BEA3EA999205"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "5.7x28 Ammo"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 60 rounds of 5.7x28."
+				"Fits: P90"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:57x28"
+				}
+			}
+			id: "47D3376C8E119A13"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "11234034233A771E"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:57x28"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: P90"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "4460D5BB531BBC38"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "5.7x28 Ammo x60"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 5 rounds of 7.62x25."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x25"
+				}
+			}
+			id: "7394573A6990E780"
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "361C7C5689F4972D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x25"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "71FEA7EC8B3932F1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "7.62x25 Ammo"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 60 rounds of 7.62x25."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x25"
+				}
+			}
+			id: "0B217045DF9C31B4"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "52CE3858049A7BE7"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x25"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "63082E035D964C4F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "7.62x25 Ammo x60"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 4 rounds of .357 Magnum."
+				"Fits: Golden Desert Eagle, Rhino .357"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:357mag"
+				}
+			}
+			id: "7B338E0E5EE3C7A3"
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "278CFBB8C3BD4CC2"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:357mag"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Golden Desert Eagle, Rhino .357"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "190B50CEA87BDD43"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".357 Magnum Ammo"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Copper Ingot = 48 rounds of .357 Magnum."
+				"Fits: Golden Desert Eagle, Rhino .357"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:357mag"
+				}
+			}
+			id: "62434E15DAE3F6E1"
+			rewards: [{
+				auto: "no_toast"
+				count: 48
+				id: "632461BDDBB31541"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:357mag"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Golden Desert Eagle, Rhino .357"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "77E8321E64AC28E2"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".357 Magnum Ammo x48"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 3 rounds of .50 AE."
+				"Fits: Desert Eagle, Timeless .50"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50ae"
+				}
+			}
+			id: "325D419F13268D3B"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "396780F416B0D5D1"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50ae"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Desert Eagle, Timeless .50"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "415A5628EF619CD0"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".50 AE Ammo"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"16x Copper Ingot = 48 rounds of .50 AE."
+				"Fits: Desert Eagle, Timeless .50"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50ae"
+				}
+			}
+			id: "5F2D818BA6FB606E"
+			rewards: [{
+				auto: "no_toast"
+				count: 48
+				id: "6C830FA950B3A40E"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50ae"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Desert Eagle, Timeless .50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "79A99F301E6EF156"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".50 AE Ammo x48"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Copper Ingot = 2 rounds of .500 Magnum."
+				"Fits: Taurus 500"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:500mag"
+				}
+			}
+			id: "4C1A3D28AE3DA56D"
+			rewards: [{
+				auto: "no_toast"
+				count: 2
+				id: "370A04C7FE6ADDCB"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:500mag"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Taurus 500"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6C4879CBD0033EC2"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".500 Magnum Ammo"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"21x Copper Ingot = 42 rounds of .500 Magnum."
+				"Fits: Taurus 500"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:500mag"
+				}
+			}
+			id: "44BED817CBFC1108"
+			rewards: [{
+				auto: "no_toast"
+				count: 42
+				id: "4B8C8AEB55DE55CD"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:500mag"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Taurus 500"
+			tasks: [{
+				consume_items: true
+				count: 21L
+				disable_toast: true
+				id: "0B991CF2A5D4723A"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: ".500 Magnum Ammo x42"
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	title: "Ammo: Pistols and SMGs"
+}

@@ -1,0 +1,994 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_sights"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:sight_deltapoint_pistol"
+		}
+	}
+	id: "1984B7D769AF00BA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 5x Gold Ingot + 6x Redstone Dust + 4x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_552"
+				}
+			}
+			id: "5B292883768B597C"
+			rewards: [{
+				auto: "no_toast"
+				id: "388BAE568C993776"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_552"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "70D5E9C5524781F9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "60E34629FF355276"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "1BBE7AEB9074411E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "00A7A0EFB65D99D6"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "552 Sight"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_acro_pistol"
+				}
+			}
+			id: "2A58CF8749B94E23"
+			rewards: [{
+				auto: "no_toast"
+				id: "4BB530438064C470"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_acro_pistol"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "266E60327320D549"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "6F24408096028C85"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Acro Pistol Sight"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_acro_rifle"
+				}
+			}
+			id: "6591AF614536145C"
+			rewards: [{
+				auto: "no_toast"
+				id: "4285664AA72401E5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_acro_rifle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "4C3B4667661F6343"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "20C1B0D595A607EA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Acro Rifle Sight"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot + 4x Redstone Dust + 2x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_coyote"
+				}
+			}
+			id: "5711E1FE5BC0CF9E"
+			rewards: [{
+				auto: "no_toast"
+				id: "0A812AC4F833BDD3"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_coyote"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "2689636A7C6712E3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "39032E5BB463E39D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "0185065A77FCB22A"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Coyote Sight"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_deltapoint_pistol"
+				}
+			}
+			id: "11D7BC5FC41BA88D"
+			rewards: [{
+				auto: "no_toast"
+				id: "76BB54AC54193498"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_deltapoint_pistol"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "1C23CFA0269AD134"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "0648CCE1790491EC"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Deltapoint Pistol Sight"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_deltapoint_rifle"
+				}
+			}
+			id: "09DFAA645D6CC93D"
+			rewards: [{
+				auto: "no_toast"
+				id: "1C520CC007E0CF1E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_deltapoint_rifle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "6BD5A8B5D0829EBE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "5FF40F2EBA191552"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Deltapoint Rifle Sight"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 5x Gold Ingot + 8x Redstone Dust + 4x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_exp3"
+				}
+			}
+			id: "60F4FFD723A43DDE"
+			rewards: [{
+				auto: "no_toast"
+				id: "3AED6407303CB8ED"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_exp3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "79CC05A1674CC6A3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "64AE52B34408149E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "42B74A32B9DE53A1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "1B206F4E7743B358"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "EXP3 Sight"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_fastfire_pistol"
+				}
+			}
+			id: "78F663902E2027D2"
+			rewards: [{
+				auto: "no_toast"
+				id: "40CB101D777CFD28"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_fastfire_pistol"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "5A8C83853CB4FBCF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "47C724EF0E6F30D1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Fastfire Pistol Sight"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_fastfire_rifle"
+				}
+			}
+			id: "1CADA5B1DC8A1827"
+			rewards: [{
+				auto: "no_toast"
+				id: "617F2C2800F27DEA"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_fastfire_rifle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "0F48C2E6DA051A2F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "1EBCEFB29024B7CF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Fastfire Rifle Sight"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 4x Redstone Dust + 2x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_okp7"
+				}
+			}
+			id: "41E0ADEB15C00A93"
+			rewards: [{
+				auto: "no_toast"
+				id: "165768D3E5BA8C17"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_okp7"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "047B41AFCE2848CD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "501A0CB923AD58B4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "2DC47D3DA2A5C5EC"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "OKP7 Sight"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_pk06_pistol"
+				}
+			}
+			id: "7FA9D05AA861285F"
+			rewards: [{
+				auto: "no_toast"
+				id: "41C7D86715532434"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_pk06_pistol"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "21442CDEB3337B81"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "2F711F82B80F4727"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "PK06 Pistol Sight"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_pk06_rifle"
+				}
+			}
+			id: "1C20580334F86D39"
+			rewards: [{
+				auto: "no_toast"
+				id: "10A03C916F06EF4E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_pk06_rifle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "30B6C2A685BC6880"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "061290E2C707603E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "PK06 Rifle Sight"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_rmr_dot"
+				}
+			}
+			id: "1969A014570DB3A4"
+			rewards: [{
+				auto: "no_toast"
+				id: "4C0C41CBD529BB33"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_rmr_dot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "72F0B806E1EA1B6C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "6B82E8128463CC4E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "RMR Dot Sight"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_sro_dot"
+				}
+			}
+			id: "33BBFFF203A7C7DF"
+			rewards: [{
+				auto: "no_toast"
+				id: "55C8D4D297C6744E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_sro_dot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "10CB1E1CB503B27E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "6259F6448AB9EB7B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "SRO Dot Sight"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 2x Redstone Dust + 2x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_srs_02"
+				}
+			}
+			id: "1FAAD59250D4FE05"
+			rewards: [{
+				auto: "no_toast"
+				id: "5827B902D4C2432E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_srs_02"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "1CD8A2F509160AD4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "046ECA863F678E85"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "4AA4071397EC8A25"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "SRS 02 Sight"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 4x Iron Ingot + 1x Redstone Dust + 1x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_t1"
+				}
+			}
+			id: "4392267AF4456C5C"
+			rewards: [{
+				auto: "no_toast"
+				id: "0B937AD74093B439"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_t1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "63E825407B1A62C9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "1684A056D80FA7F2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "09C2244A7E428A5A"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "T1 Sight"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Iron Ingot + 1x Redstone Dust + 1x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_t2"
+				}
+			}
+			id: "59C59C18B58E8D13"
+			rewards: [{
+				auto: "no_toast"
+				id: "0E458667489DE8E6"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_t2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "7EDFF3A4F87D777C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "2E6C9932443D19FB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "7E75D6F78609380A"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "T2 Sight"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 15x Iron Ingot + 6x Gold Ingot + 8x Redstone Dust + 4x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_uh1"
+				}
+			}
+			id: "695B2A95206AB99C"
+			rewards: [{
+				auto: "no_toast"
+				id: "09586827488E9FF2"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_uh1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sight"
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					disable_toast: true
+					id: "2E4DE5EF60C1740E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "03E38B26792A2939"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "32D13134AD764B0B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "30070198B484FB47"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "UH1 Sight"
+			x: 7.5d
+			y: 3.0d
+		}
+	]
+	title: "Attachments: Sights"
+}

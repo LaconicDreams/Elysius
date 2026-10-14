@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "ammo_heavy"
+	group: "12676BC35DAABE4A"
+	icon: {
+		Count: 1
+		id: "tacz:ammo"
+		tag: {
+			AmmoId: "tacz:50bmg"
+		}
+	}
+	id: "631975421386D45C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of .30-06."
+				"Fits: Lonetrail, M700"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:30_06"
+				}
+			}
+			id: "3397C4DEFC1E0672"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "7A34FC8DECD6FBE4"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:30_06"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Lonetrail, M700"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0EF677D13217D819"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".30-06 Ammo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Iron Ingot = 36 rounds of .30-06."
+				"Fits: Lonetrail, M700"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:30_06"
+				}
+			}
+			id: "197B6C4E05DA02D8"
+			rewards: [{
+				auto: "no_toast"
+				count: 36
+				id: "615AC55E8A6709E5"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:30_06"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Lonetrail, M700"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "04C24D0A52F4628A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".30-06 Ammo x36"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 2 rounds of .338 Lapua."
+				"Fits: AI AWP"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+			id: "4C5F20879C171B03"
+			rewards: [{
+				auto: "no_toast"
+				count: 2
+				id: "0953C3BAAD0215E2"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:338"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AI AWP"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5F3B60EA552029D5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".338 Lapua Ammo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"15x Iron Ingot = 30 rounds of .338 Lapua."
+				"Fits: AI AWP"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+			id: "7387BC8A5B26D05A"
+			rewards: [{
+				auto: "no_toast"
+				count: 30
+				id: "19E8FFB96EF97FFF"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:338"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AI AWP"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "333C55B9BF1E7EDC"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".338 Lapua Ammo x30"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of .45-70."
+				"Fits: Springfield 1873"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45_70"
+				}
+			}
+			id: "4A99C578C0DAEAC6"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "2BEEC09B879DB85E"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45_70"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Springfield 1873"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "79597FBB603A6555"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".45-70 Ammo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"16x Iron Ingot = 48 rounds of .45-70."
+				"Fits: Springfield 1873"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45_70"
+				}
+			}
+			id: "56555464CE71673B"
+			rewards: [{
+				auto: "no_toast"
+				count: 48
+				id: "7BF509338AC8BD60"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45_70"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Springfield 1873"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "38261D6E4A2B4598"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".45-70 Ammo x48"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 1 round of .50 BMG."
+				"Fits: M107, M95"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50bmg"
+				}
+			}
+			id: "2C41B1C299CD2A94"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B12AFC8658DA88D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: M107, M95"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5AA2FD9FCF3F4A80"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".50 BMG Ammo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"30x Iron Ingot = 30 rounds of .50 BMG."
+				"Fits: M107, M95"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50bmg"
+				}
+			}
+			id: "0A1975D8BFF43E9C"
+			rewards: [{
+				auto: "no_toast"
+				count: 30
+				id: "01D7FBA1975DBCA7"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: M107, M95"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				disable_toast: true
+				id: "6904326656110A9C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".50 BMG Ammo x30"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "Ammo: Snipers and Heavy"
+}

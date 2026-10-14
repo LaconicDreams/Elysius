@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_specials"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:bayonet_m9"
+		}
+	}
+	id: "4FD2A7FB3B106382"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 2x Crying Obsidian + 5x Diamond."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_fmj"
+				}
+			}
+			id: "44A14E3C2A941C81"
+			rewards: [{
+				auto: "no_toast"
+				id: "3148BF2E69F20B72"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_fmj"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "1EB154B5044A686A"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "335ED099CAA3BCA2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Ammo Mod: FMJ"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 3x Crying Obsidian + 1x End Crystal."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_he"
+				}
+			}
+			id: "63D1C3C3E0F0EA56"
+			rewards: [{
+				auto: "no_toast"
+				id: "530DDE34D511462C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_he"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "15AF6BF92B3A124F"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "371847DF48708C53"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+			]
+			title: "Ammo Mod: HE"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 3x Crying Obsidian + 8x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_hp"
+				}
+			}
+			id: "1AEDFEB1E862E9D2"
+			rewards: [{
+				auto: "no_toast"
+				id: "2CFD986C3836365B"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_hp"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "731803534D6A2884"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "0FC8D0706F857A44"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Ammo Mod: HP"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 2x Crying Obsidian + 1x Fire Charge + 4x Blaze Rod."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_i"
+				}
+			}
+			id: "0C242183AEABA575"
+			rewards: [{
+				auto: "no_toast"
+				id: "4E49572275EED937"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_i"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "6057CA4A5BC36889"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "6C2348FC42F765AE"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "30E85BDD23BCD990"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "Ammo Mod: I"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 3x Crying Obsidian + 1x Netherite Scrap."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_slug"
+				}
+			}
+			id: "5F03BF2CADCEAE6B"
+			rewards: [{
+				auto: "no_toast"
+				id: "418100A7C02D76F8"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_slug"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "1AFDBAB75F34B40C"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "2BA5C4C07ABF6EB9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "Ammo Mod: Slug"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot + 4x Stick."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:bayonet_6h3"
+				}
+			}
+			id: "3AAE0719245A0DFD"
+			rewards: [{
+				auto: "no_toast"
+				id: "49BC2B6BF670AD69"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:bayonet_6h3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "42CAA1CDAA321238"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "77B33E4DA9A04025"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "6H3 Bayonet"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Stick."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:bayonet_m9"
+				}
+			}
+			id: "1589225AC5242EC5"
+			rewards: [{
+				auto: "no_toast"
+				id: "291755C9AB3C857C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:bayonet_m9"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "66D7AC431B8B3A89"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "38ED5FE574983084"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "M9 Bayonet"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 30x Gold Ingot + 10x Iron Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:deagle_golden_long_barrel"
+				}
+			}
+			id: "54E1255D60A634E3"
+			rewards: [{
+				auto: "no_toast"
+				id: "7752D4A1D2491E88"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:deagle_golden_long_barrel"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Special"
+			tasks: [
+				{
+					consume_items: true
+					count: 30L
+					disable_toast: true
+					id: "24EFF4610718C0A8"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "590945D269D4DEAC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Deagle Golden Long Barrel"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Attachments: Specials"
+}

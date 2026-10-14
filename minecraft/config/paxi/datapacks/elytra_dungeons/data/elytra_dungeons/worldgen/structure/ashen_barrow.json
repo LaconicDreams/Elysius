@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#elytra_dungeons:has_structure/ashen_barrow",
+  "max_distance_from_center": 80,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "size": 5,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "elytra_dungeons:ashen_barrow/entrance",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

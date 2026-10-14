@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start_here"
+	group: "258CD569623A7A73"
+	icon: {
+		Count: 1
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "765C7FD0BBC57A93"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Your wings are waiting. One unbreakable elytra, a stack of rockets and a backpack to carry your gear."]
+		id: "466D6EB24C1F19D8"
+		rewards: [
+			{
+				auto: "enabled"
+				id: "3D9821FA9EE15391"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}
+			{
+				auto: "enabled"
+				count: 64
+				id: "5BB5F4B889B94F41"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}
+			{
+				auto: "enabled"
+				id: "12915D235CD02F71"
+				item: "travelersbackpack:standard"
+				type: "item"
+			}
+		]
+		subtitle: "Free starter kit"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "2023936E9A4816D9"
+			type: "dimension"
+		}]
+		title: "Welcome Aboard"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Start Here"
+}

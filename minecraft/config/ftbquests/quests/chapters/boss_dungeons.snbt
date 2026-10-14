@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_dungeons"
+	group: "258CD569623A7A73"
+	icon: "minecraft:wither_skeleton_skull"
+	id: "05E16AB3B90238CA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A ring of black stone in the badlands hides a shaft into the dark. Something on a throne is waiting below."
+				"Find an Ashen Barrow and defeat the Ashen Warlord."
+				"Reward: SCAR-L with 120 rounds of 5.56x45."
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2FEAF76DCFC17A21"
+			rewards: [
+				{
+					id: "2D13048DF7700AB8"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:scar_l"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "4922F46D50A19C0E"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "3F52B70EF12DA46A"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "SCAR-L"
+			tasks: [
+				{
+					id: "10FADC8782F3819C"
+					structure: "elytra_dungeons:ashen_barrow"
+					type: "structure"
+				}
+				{
+					advancement: "elytra_dungeons:bosses/ashen_warlord"
+					criterion: ""
+					id: "19DC4039573486DA"
+					type: "advancement"
+				}
+			]
+			title: "Ash to Ash"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"High above the clouds a stone crown floats on the wind. Only wings can reach it."
+				"Find a Storm Spire and destroy the Tempest Herald. Aim for the ruby on its forehead."
+				"Reward: M107 with 30 rounds of .50 BMG."
+			]
+			icon: "minecraft:ghast_tear"
+			id: "544CFBCB2A486172"
+			rewards: [
+				{
+					id: "66EC527210B75006"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m107"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "60AD3E77D10B069C"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:50bmg"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "M107"
+			tasks: [
+				{
+					id: "3244DD528AE208CD"
+					structure: "elytra_dungeons:storm_spire"
+					type: "structure"
+				}
+				{
+					advancement: "elytra_dungeons:bosses/tempest_herald"
+					criterion: ""
+					id: "757E08FAC151AA3F"
+					type: "advancement"
+				}
+			]
+			title: "Eye of the Storm"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Crying obsidian frames stand where the world is thin. Step through one."
+				"Break the Hollow Magus's crystal shield and defeat him."
+				"Reward: FN Evolys with 96 rounds of .308."
+			]
+			icon: "minecraft:end_crystal"
+			id: "7E465CDA0E2AA128"
+			rewards: [
+				{
+					id: "26AC0B6EC2164244"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:fn_evolys"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "6B8BA12B269C930A"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "49F09CCBC27EBD38"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "FN Evolys"
+			tasks: [
+				{
+					id: "176930AC519A84AC"
+					structure: "elytra_dungeons:rift_gate"
+					type: "structure"
+				}
+				{
+					advancement: "elytra_dungeons:bosses/hollow_magus"
+					criterion: ""
+					id: "75090384DFA9A21A"
+					type: "advancement"
+				}
+			]
+			title: "Into the Hollow"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Boss Dungeons"
+}

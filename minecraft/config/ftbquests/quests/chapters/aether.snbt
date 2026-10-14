@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "6231D5D824A79023"
+	icon: "aether:aether_portal_frame"
+	id: "70A273C5A80DB3FE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Enter the Aether."]
+			id: "7898FB99A05E61B2"
+			rewards: [{
+				count: 32
+				id: "25D0D8D0B8EC81FD"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Start here"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "7AA0138D2BEE248A"
+				type: "dimension"
+			}]
+			title: "Sky Kingdom"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Zephyrs fly and spit snowballs. Good target practice."
+				"Reward: Vector 45 with 90 rounds of .45 ACP."
+			]
+			id: "7D242BC8D031D4AF"
+			rewards: [
+				{
+					id: "3FF9774E7DDD9BBC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:vector45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "467F8CCA38D6C93B"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "2EA556A0DCC2E807"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73FE71F3775D10EA"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Vector 45"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "14FEC83AB59185B1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Zephyr Chase"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Cockatrices hit hard. Keep your distance."
+				"Reward: M870 with 32 rounds of 12 Gauge."
+			]
+			id: "04BAA2C9C8D0BD92"
+			rewards: [
+				{
+					id: "0EC143281DF94177"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m870"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4A51315974CA6512"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5ED24B9FAD609C4F"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "M870"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "22D61B323C412B84"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Stone Cold"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Sentries guard the dungeons."
+				"Reward: M4A1 with 120 rounds of 5.56x45."
+			]
+			id: "7BD39C416E4373CA"
+			rewards: [
+				{
+					id: "6257A3A409C321AB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:m4a1"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "49CBF2B04A6EC73A"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "0E8E629CBD85AAF5"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09A799F95B12F63B"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "M4A1"
+			tasks: [{
+				entity: "aether:sentry"
+				id: "29767F0E00560139"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Sentry Shutdown"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD39C416E4373CA"]
+			description: [
+				"Defeat the Slider, the Aether's dungeon boss."
+				"Reward: SPR-15HB with 60 rounds of 5.56x45."
+			]
+			id: "0002AD536C30A8A8"
+			rewards: [
+				{
+					id: "6B2CDDACACE100E4"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:spr15hb"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "1A075913EB4D9259"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "543B7625CA5A65CB"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "SPR-15HB"
+			tasks: [{
+				entity: "aether:slider"
+				id: "49F098713D6C92DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Gatekeeper"
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Aether Hunts"
+}

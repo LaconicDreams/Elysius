@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "elytra_dungeons:ashen_barrow/corridor_a",
+        "processors": "elytra_dungeons:ashen_barrow/decay",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "elytra_dungeons:ashen_barrow/corridor_b",
+        "processors": "elytra_dungeons:ashen_barrow/decay",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

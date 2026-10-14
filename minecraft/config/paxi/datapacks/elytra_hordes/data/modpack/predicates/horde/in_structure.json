@@ -1,0 +1,407 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:village_plains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:village_desert"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:village_savanna"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:village_snowy"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:village_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:pillager_outpost"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:swamp_hut"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:desert_pyramid"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:jungle_pyramid"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:igloo"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:mansion"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "terralith:fortified_village"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "terralith:fortified_desert_village"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "terralith:desert_outpost"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "betterdeserttemples:desert_temple"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "betterjungletemples:jungle_temple"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_badlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_birch"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_desert"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_giant_tree_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_icy"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_mangrove"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_oak"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_snowy"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:outpost_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_badlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_bamboo"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_birch"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_cherry"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_dark_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_giant_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_mushroom"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_oak"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "repurposed_structures:village_swamp"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:abandoned_temple"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:bandit_towers"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:bandit_village"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:bathhouse"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:ceryneian_hind"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:coliseum"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:fishing_hut"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:foundry"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:giant_mushroom"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:greenwood_pub"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:illager_campsite"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:illager_fort"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:illager_windmill"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:infested_temple"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:jungle_tree_house"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:keep_kayra"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:lighthouse"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:merchant_campsite"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:monastery"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:mushroom_house"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:mushroom_village"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:plague_asylum"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:shiraz_palace"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:small_prairie_house"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:thornborn_towers"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "dungeons_arise:wishing_well"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "elytra_dungeons:ashen_barrow"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "elytra_dungeons:storm_spire"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "elytra_dungeons:rift_gate"
+      }
+    }
+  ]
+}

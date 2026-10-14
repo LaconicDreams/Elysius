@@ -1,0 +1,22 @@
+{
+  "parent": "modpack:bote/rang/root",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"modpack_horde_leader\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "modpack:bote/rang/quelle/leader_kill"
+  }
+}

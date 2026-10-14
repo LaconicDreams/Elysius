@@ -1,0 +1,198 @@
+ELYTRA MODPACK - COMMAND REFERENCE
+==================================
+In-game commands need cheats / operator rights.
+  Singleplayer without cheats: Esc -> Open to LAN -> Allow Cheats: ON -> Start LAN World.
+  Clickable green coordinates in chat fill in a teleport command; press Enter to go there.
+
+------------------------------------------------------------------------
+1. RELOADING
+------------------------------------------------------------------------
+/reload
+    Reloads all datapacks (functions, loot tables, advancements, quests' advancements).
+    NOT enough for new structures, new dimensions or spawn spacing: for those, save & quit to the
+    title screen and reopen the world.
+
+/ftbquests reload
+    Reloads the FTB Quests chapters after a quest change.
+
+F3 + T
+    Reloads resource packs (textures/skins). New mods or new resource packs need a full game restart.
+
+/datapack list
+    Shows the loaded datapacks. Should list elytra_dungeons, elytra_hordes and elytra_rs_trim (via Paxi).
+
+------------------------------------------------------------------------
+2. BOSS DUNGEONS
+------------------------------------------------------------------------
+Finding them
+/locate structure elytra_dungeons:ashen_barrow
+    Nearest Ashen Barrow (Ashen Warlord). Badlands, savanna, desert and Terralith ashen/volcanic biomes.
+/locate structure elytra_dungeons:storm_spire
+    Nearest Storm Spire / Tempest Crown (Tempest Herald). Floats at about y=245: fly up, or
+    /tp @s X 250 Z  with the X and Z from /locate.
+/locate structure elytra_dungeons:rift_gate
+    Nearest Rift Gate. Step into the crying-obsidian frame to enter the Hollow (Hollow Magus).
+    Only unexplored land gets new dungeons; "could not find" = none near you, try elsewhere.
+
+Building one right where you stand (testing)
+/place structure elytra_dungeons:ashen_barrow     shaft goes 20 blocks down, use flat ground
+/place structure elytra_dungeons:storm_spire      builds at y=225 above you
+/place structure elytra_dungeons:rift_gate
+
+Boss fights
+/function elytra_dungeons:debug/rearm
+    Restarts the boss fight of every arena within 64 blocks (running, won or reset).
+/function elytra_dungeons:debug/warlord_here
+    Puts an Ashen Warlord trigger where you stand. Walk 15+ blocks away, come back within 10.
+/function elytra_dungeons:debug/herald_here
+    Same for the Tempest Herald (come back within 14). Best high up in the open.
+/function elytra_dungeons:debug/hollow_enter
+    Takes you to the Hollow without a Rift Gate. The return rift there brings you back to this spot.
+/function elytra_dungeons:debug/hollow_rebuild
+    Re-places the Hollow arena on the next visit (only needed after the arena design changed).
+/function elytra_dungeons:debug/clear_markers
+    Stops any fight within 32 blocks and removes the arena triggers (not the Hollow's).
+/kill @e[type=minecraft:slime,name="Storm Ruby"]
+    Removes leftover Storm Ruby slimes (from the old buggy version).
+
+Notes
+- A fight resets by itself when every player is 48-64 blocks away (no drops).
+- Ashen Warlord / Tempest Herald stay beaten until rearm. The Hollow Magus returns 10 minutes after a
+  win once nobody is in the arena.
+
+------------------------------------------------------------------------
+3. ZOMBIE HORDES
+------------------------------------------------------------------------
+/function modpack:horde/start
+    Starts a horde near you now (as a player, in the overworld). Ignores timer, chance, cooldown and
+    time of day; still needs a valid spot 40-70 blocks away.
+/function modpack:horde/status
+    Shows your cooldown, timer and the number of horde zombies nearby.
+/scoreboard players get @s mh_cd
+    Your horde cooldown in seconds (shared with players within 100 blocks).
+/scoreboard players reset @s mh_cd
+    Clears your cooldown.
+/function modpack:horde/clear
+    Removes all horde zombies and leaders (no drops) and stops the lure.
+/kill @e[tag=modpack_horde]
+    Kills all horde zombies (with drops).
+
+Normal hordes: night or thunder only, outside, below Y=150, not gliding, 8-16 zombies.
+Settings: config/paxi/datapacks/elytra_hordes/data/modpack/functions/horde/settings.mcfunction
+(edit in Notepad, then /reload). The pack's README.md explains every value.
+
+------------------------------------------------------------------------
+4. HORDE LEADERS (mini-bosses)
+------------------------------------------------------------------------
+Types: laeufer, brecher, spucker, schreier, kriecher, platzer
+       (last-type numbers: 1 Läufer, 2 Brecher, 3 Spucker, 4 Schreier, 5 Kriecher, 6 Platzer)
+
+/function modpack:leader/force/<type>
+    A horde led by that type, e.g. /function modpack:leader/force/brecher
+/function modpack:leader/here/<type>
+    One leader on the ground 6 blocks in front of you, no horde, e.g. /function modpack:leader/here/platzer
+/function modpack:leader/clear
+    Removes every loaded leader (no drops, no explosion).
+/function modpack:leader/status
+    Shows the last leader type and how many leaders are loaded.
+/scoreboard players get #last ld_last
+    The last leader type as a number (the next horde never gets the same type).
+
+Counters: Läufer -> shotgun, Brecher -> high armour piercing (AI AWP, M95, FMJ/Slug) + headshots,
+Spucker -> sniper rifle, Schreier -> suppressor, kill first, Kriecher -> light the area + melee,
+Platzer -> keep your distance (explodes on death).
+Tuning: CONFIG at the top of questtools/leadergen.py, then run  py leadergen.py  and /reload.
+
+------------------------------------------------------------------------
+5. WORLD PREGENERATION (Chunky) - do this after the dungeons are final
+------------------------------------------------------------------------
+/chunky world minecraft:overworld
+/chunky shape square
+/chunky spawn
+/chunky radius 5000
+/chunky start
+    Overworld, 5000 blocks around spawn (several hours).
+/chunky world minecraft:the_nether    /chunky center 0 0    /chunky radius 1500    /chunky start
+/chunky world aether:the_aether       /chunky center 0 0    /chunky radius 3000    /chunky start
+/chunky world minecraft:the_end       /chunky center 0 0    /chunky radius 3000    /chunky start  (optional)
+/chunky progress     progress and time left
+/chunky pause        pause (resume with /chunky continue)
+/chunky cancel       drop the queued tasks
+Details: devnotes/chunky_pregen_commands.md
+
+------------------------------------------------------------------------
+6. OTHER USEFUL COMMANDS
+------------------------------------------------------------------------
+(Old: team "friends". Removed on /reload since the rank system: every player is now in a rank team
+ rang_1 .. rang_7 with friendly fire ON, because the Macht wish allows killing a player. See section
+ "RANGSYSTEM" below.)
+F3 (debug screen)
+    Neat health bars show the mob's entity ID (useful to blacklist more mobs).
+F3 + H
+    Advanced tooltips (also shows registry names in Jade).
+
+------------------------------------------------------------------------
+7. TOOLS ON THE PC (PowerShell, in the instance folder)
+------------------------------------------------------------------------
+cd "$env:APPDATA\PrismLauncher\instances\1.20.1\questtools"
+
+py validate.py
+    Checks quests, datapacks, resource packs and loot before launch. Prism runs it automatically
+    before every start; errors cancel the launch. Report: validate_report.txt
+py questgen.py
+    Writes all FTB Quests chapters from the table in questgen.py (backs up first, then validates).
+    --check  show what would change    --diff  print changed lines    --only <chapter>  only that chapter
+py questadd.py   (or double-click questtools\questadd.cmd)
+    Interactive quest maker: asks for chapter, title, task, reward, text, predecessor and position,
+    checks the IDs, adds the quest to questgen.py and regenerates the chapter. Then /ftbquests reload.
+py balance.py
+    Economy audit of shop prices and rewards (balance_report.txt).
+py lootgen.py
+    Rebuilds the guns/ammo/attachments chest loot pack (rerun after changing shop prices).
+py dungeongen.py
+    Rebuilds the boss dungeon datapack and its resource pack (backs up the old ones).
+py leadergen.py
+    Rebuilds the horde leaders, their loot/advancements and the leader skins.
+py configure_hud.py
+    Re-applies the Neat health bar settings (--dry-run to preview).
+
+powershell -ExecutionPolicy Bypass -File "$env:APPDATA\PrismLauncher\instances\1.20.1\check-mods.ps1"
+    Checks all mods for missing dependencies and version mismatches.
+
+Where things are written down (folder docs/): CHANGELOG.md (every change), PROJECT_SUMMARY.md (overview),
+STATUS.md (short log), devnotes/ (dungeon designs), cleanup/ (cleanup plan and report).
+Backups: backup/ in the instance folder (old ones packed in backup/archive-bis-2026-10-14.zip).
+
+------------------------------------------------------------------------
+RANGSYSTEM (Der Zeitbote) - all values in questtools/rankgen.py CONFIG
+------------------------------------------------------------------------
+/function modpack:bote/rang/punkte_story          +150 for you (story step)
+/function modpack:bote/rang/punkte_klein          +10 for you (small deed)
+/scoreboard players set #add bote_punkte 37       then  /function modpack:bote/rang/punkte_add   (+37)
+/execute as <name> run function modpack:bote/rang/op/rang_5      rank 5 (points set to its threshold)
+/scoreboard players set <name> bote_punkte 450    points directly; rank follows within 0.5 s
+/execute as <name> run function modpack:bote/rang/op/reset       rank 1, 0 points, abilities off
+/execute as <name> run function modpack:bote/rang/op/neu_anwenden    team + abilities again
+/execute as <name> run function modpack:bote/rang/op/nachtrag    story points from old progress again (once)
+/tag @s add bote_admin   then   /execute as <name> run function modpack:bote/rang/op/zustand   state of a player
+/function modpack:bote/rang/test/zeit_dehnen       Zeit dehnen now (ignores rank/clock/cooldown)
+/function modpack:bote/rang/test/atemzug           Letzter Atemzug now
+/function modpack:bote/rang/test/atemzug_echt      real trigger: takes you to low health (rank 7)
+/function modpack:bote/rang/test/cooldowns_kurz    both cooldowns end in 5 s
+/function modpack:bote/rang/test/rakete            next used rocket comes back (rank 3)
+/team list rang_3                                  who is in a rank team
+------------------------------------------------------------------------
+PFAD-BELOHNUNGEN (Aether quest items) - all values in questtools/pathgen.py CONFIG
+------------------------------------------------------------------------
+/function modpack:bote/pfad/test/pfad_wissen        your path = Wissen (also pfad_macht, pfad_schutz)
+/execute as <name> run function modpack:bote/rang/op/rang_6    rank -> armour pieces come with it
+/execute as <name> at @s run function modpack:bote/pfad/op/gib/wissen/helm   one item (pfad: macht/schutz/wissen;
+      teil: waffe1, helm, brust, hose, stiefel, handschuhe, waffe2)
+/execute as <name> at @s run function modpack:bote/pfad/op/pruefen   give everything owed + missing (no cooldown)
+/execute as <name> run function modpack:bote/pfad/op/reset     forget given items, remove them from the inventory
+/trigger bote_gabe                                   player: get lost gifts back (cooldown 1 in-game day)
+/function modpack:bote/pfad/test/verlust_kurz        that cooldown ends now
+/function modpack:bote/pfad/test/bogen_ohne_pfeile   no arrows + Phoenix Bow in hand
+/function modpack:bote/pfad/test/haltbarkeit         Unbreakable / Damage / path of the held item
+/function modpack:bote/pfad/test/wasser              water at your feet (Phoenix -> Obsidian -> back)
+/loot spawn ~ ~ ~ loot aether:chests/dungeon/gold/gold_dungeon_reward   check a dungeon table (no path items)

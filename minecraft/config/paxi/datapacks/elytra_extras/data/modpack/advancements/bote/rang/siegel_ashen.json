@@ -1,0 +1,31 @@
+{
+  "parent": "modpack:bote/rang/root",
+  "criteria": {
+    "a0": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elytra_dungeons:bosses/ashen_warlord": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a0"
+    ]
+  ],
+  "rewards": {
+    "function": "modpack:bote/rang/quelle/siegel"
+  }
+}

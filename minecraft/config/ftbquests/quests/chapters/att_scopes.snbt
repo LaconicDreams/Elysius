@@ -1,0 +1,724 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_scopes"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:scope_contender"
+		}
+	}
+	id: "43E2160545680676"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Copper Ingot + 4x Iron Ingot + 4x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_1873_6x"
+				}
+			}
+			id: "0DE370AD6F053474"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B0F2144E6E3B062"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_1873_6x"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "72CC7865AA410066"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "48AEAD066E563F07"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "7E1791C52337FE37"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "1873 6X Scope"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 2x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_98k"
+				}
+			}
+			id: "56C769C557B508FA"
+			rewards: [{
+				auto: "no_toast"
+				id: "1B61BD1BFC69BBCA"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_98k"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "41E11C0920B1A260"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "59BC9D4C15DE50C9"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "98K Scope"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 6x Glass + 8x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_acog_ta31"
+				}
+			}
+			id: "2ABC93AC9EA0E630"
+			rewards: [{
+				auto: "no_toast"
+				id: "50E429C1B1A50027"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_acog_ta31"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "4FB84532DC3991B2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "745233E5CA4E8A0C"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "1CCF023E5438700C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "ACOG TA31 Scope"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_contender"
+				}
+			}
+			id: "145727AE6ABC4996"
+			rewards: [{
+				auto: "no_toast"
+				id: "7411959CCB1C759C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_contender"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "69EBBCD1BD40F11C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "30687378B9A3F9CF"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Contender Scope"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 10x Glass + 10x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_elcan_4x"
+				}
+			}
+			id: "1526590FB356E439"
+			rewards: [{
+				auto: "no_toast"
+				id: "15BE0453F5ED073A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_elcan_4x"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "41EE5FF6343667FA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "1B6FA77C14EF4B88"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "64153E1CFFF27BAB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Elcan 4X Scope"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 8x Glass + 10x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_hamr"
+				}
+			}
+			id: "209F2FB3551D6CCD"
+			rewards: [{
+				auto: "no_toast"
+				id: "248235C6E27ADBD5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_hamr"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "531336559FCFB784"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "326AECA7F5D0F0D2"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "5E0C85BAD495D26E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "HAMR Scope"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 8x Glass + 8x Glowstone Dust + 6x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_lpvo_1_6"
+				}
+			}
+			id: "6E8CCC0328A8139A"
+			rewards: [{
+				auto: "no_toast"
+				id: "52C3F729C2557443"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_lpvo_1_6"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "218DE5E192817318"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "4F72333C23742B43"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "2270F2F3419CBCB3"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "23AACA3D223D7088"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "LPVO 1 6 Scope"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 24x Iron Ingot + 20x Glass + 8x Glowstone Dust + 8x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_mk5hd"
+				}
+			}
+			id: "1646F2450800B4D4"
+			rewards: [{
+				auto: "no_toast"
+				id: "2310AA122A01C116"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_mk5hd"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					disable_toast: true
+					id: "2D3D8E8B6E9D0E46"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					disable_toast: true
+					id: "75618F62BFB56EE4"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "2065E6B4A51E238C"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "5FD893ECBDD663F4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "MK5HD Scope"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 16x Glass + 10x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_qmk152"
+				}
+			}
+			id: "05D6B2B71B3F9FA8"
+			rewards: [{
+				auto: "no_toast"
+				id: "21AD412D13BA4584"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_qmk152"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "6AE7D840140D930D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "6E67A0ACA51A8DFD"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "6793AEB10A67C24B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "QMK152 Scope"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot + 2x Glass."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_retro_2x"
+				}
+			}
+			id: "2CBD86234E05504A"
+			rewards: [{
+				auto: "no_toast"
+				id: "75BF5667CB05418C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_retro_2x"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "21834BDC9DFC618C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "1B11AF7EA9F3C30F"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Retro 2X Scope"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 16x Glass + 8x Glowstone Dust + 8x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_standard_8x"
+				}
+			}
+			id: "376C994071EA6670"
+			rewards: [{
+				auto: "no_toast"
+				id: "288F47AFCA00592D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_standard_8x"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "6808EEDBD3EB83FA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "41901D458660CA0C"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "6EBB5C33E4FE2B0B"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "15E87AB5F3877E04"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Standard 8X Scope"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 8x Glass + 8x Glowstone Dust + 6x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_vudu"
+				}
+			}
+			id: "3355973233A63D28"
+			rewards: [{
+				auto: "no_toast"
+				id: "40CEBB4E13DF7786"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_vudu"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scope"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "0B215341FD359B94"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "2592C4B22B09B5D4"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "7F1D0DF8CB6FF27D"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "6291242D1A5E6E44"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Vudu Scope"
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+	title: "Attachments: Scopes"
+}

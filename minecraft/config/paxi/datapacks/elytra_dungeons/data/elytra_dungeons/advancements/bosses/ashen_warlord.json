@@ -1,0 +1,23 @@
+{
+  "parent": "elytra_dungeons:bosses/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "text": "Ash to Ash"
+    },
+    "description": {
+      "text": "Defeat the Ashen Warlord beneath the barrow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "modpack:bote"
+  },
+  "ops": [
+    {
+      "source": "pfad.alt.Enchantments",
+      "target": "Enchantments",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.display",
+      "target": "display",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.Trim",
+      "target": "Trim",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.Unbreakable",
+      "target": "Unbreakable",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.RepairCost",
+      "target": "RepairCost",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.modpack_questitem",
+      "target": "modpack_questitem",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.modpack_pfad",
+      "target": "modpack_pfad",
+      "op": "replace"
+    },
+    {
+      "source": "pfad.alt.modpack_teil",
+      "target": "modpack_teil",
+      "op": "replace"
+    }
+  ]
+}

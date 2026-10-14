@@ -1,0 +1,23 @@
+{
+  "parent": "elytra_dungeons:bosses/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": {
+      "text": "Into the Hollow"
+    },
+    "description": {
+      "text": "Break the Hollow Magus's shield and defeat him"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

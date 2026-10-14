@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 718293641,
+    "separation": 8,
+    "spacing": 24
+  },
+  "structures": [
+    {
+      "structure": "elytra_dungeons:ashen_barrow",
+      "weight": 1
+    }
+  ]
+}

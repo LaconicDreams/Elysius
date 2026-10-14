@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "grab": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"leader_kriecher\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "modpack:leader/kriecher_grab"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "text": "Horde Leaders"
+    },
+    "description": {
+      "text": "Every horde has someone in charge"
+    },
+    "background": "minecraft:textures/block/coarse_dirt.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

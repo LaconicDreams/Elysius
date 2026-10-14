@@ -1,0 +1,22 @@
+{
+  "name": "elytra_bote",
+  "entity": {
+    "type": "wandering_trader",
+    "team": "mes_bote",
+    "distance": {
+      "max": 16,
+      "fade": 4
+    }
+  },
+  "sounds": [
+    {
+      "name": "silence",
+      "mute": 1,
+      "mute-priority": 100,
+      "fade-volume": 0.2,
+      "files": [
+        "elytra_extras:silence"
+      ]
+    }
+  ]
+}

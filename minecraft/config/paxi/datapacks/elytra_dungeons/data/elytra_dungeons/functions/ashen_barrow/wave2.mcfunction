@@ -1,0 +1,5 @@
+summon minecraft:wither_skeleton ~-9 ~ ~ {Tags:["ed_add","ed_warlord_add"],PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0f,0f]}
+summon minecraft:wither_skeleton ~9 ~ ~ {Tags:["ed_add","ed_warlord_add"],PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0f,0f]}
+summon minecraft:wither_skeleton ~ ~ ~9 {Tags:["ed_add","ed_warlord_add"],PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0f,0f]}
+summon minecraft:wither_skeleton ~ ~1 ~-9 {Tags:["ed_add","ed_warlord_add"],PersistenceRequired:1b,CustomName:'{"text":"Ash Captain","color":"red"}',Health:80f,Attributes:[{Name:"minecraft:generic.max_health",Base:80d},{Name:"minecraft:generic.attack_damage",Base:8d}],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[0f,0f,0f,0f]}
+particle minecraft:soul_fire_flame ~ ~1 ~ 9 0.5 9 0.02 200

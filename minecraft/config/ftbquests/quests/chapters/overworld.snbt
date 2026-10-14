@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "6231D5D824A79023"
+	icon: "minecraft:grass_block"
+	id: "35E2B16680F87D73"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ten zombies. A simple pistol should do."
+				"Reward: Glock 17 with 60 rounds of 9mm."
+			]
+			id: "09391A612D8F2575"
+			rewards: [
+				{
+					id: "34AA5ADCE511F3B6"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "615C71A5E56D3D63"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78DFBCBCE099CF69"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Glock 17"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "15500E6DB809A890"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Zombie Stopper"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09391A612D8F2575"]
+			description: [
+				"Spiders are fast and nasty up close. A shotgun helps."
+				"Reward: Sawed-off Double Barrel with 24 rounds of 12 Gauge."
+			]
+			id: "1AA78B4DBC67809D"
+			rewards: [
+				{
+					id: "6604CF0AECBC5CFF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "BURST"
+							GunId: "tacz:db_short"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "0F068B780507165F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78A2FB1C2A9391CE"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Sawed-off Double Barrel"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "7919EF382B7F4564"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Web Cutter"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09391A612D8F2575"]
+			description: [
+				"Shoot them before they get close."
+				"Reward: Uzi with 90 rounds of 9mm."
+			]
+			id: "566E624606DC504D"
+			rewards: [
+				{
+					id: "1D338E63EC49AFD2"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:uzi"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "0819DC9C000AE68D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "047D02EB2EDCE963"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "528D1E7742DBEE0F"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Uzi"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "5DE9B5FFD218254D"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Creeper Crowd"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1AA78B4DBC67809D"
+				"566E624606DC504D"
+			]
+			description: [
+				"Take out pillagers from range."
+				"Reward: HK MP5A5 with 90 rounds of 9mm."
+			]
+			id: "1633885F7172DB0B"
+			rewards: [
+				{
+					id: "5695BF6A92944B16"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:hk_mp5a5"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "24A9B631FC7D6F35"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5378A4062CB3F371"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17EF6D29FD6F8A3C"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "HK MP5A5"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "6A6BB36C05483BDC"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Raid Breaker"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A ravager is tough. Bring your best shots."
+				"Reward: SKS Tactical with 60 rounds of 7.62x39."
+			]
+			id: "2F2B7563EAEF2518"
+			rewards: [
+				{
+					id: "128C175837B94046"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:sks_tactical"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "78FA7FD2B265DBEB"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C15A699AC120AA2"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "SKS Tactical"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "0322CB0FA431D70C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Beast Slayer"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Overworld Bounties"
+}

@@ -1,0 +1,117 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_mirage\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_phantom_s1\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_ptilopsis\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_sg\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_ursus\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_vulture\"}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "tacz:modern_kinetic_gun"
+            ],
+            "nbt": "{AttachmentMUZZLE:{tag:{AttachmentId:\"tacz:muzzle_silencer_wraith\"}}}"
+          }
+        }
+      }
+    }
+  ]
+}

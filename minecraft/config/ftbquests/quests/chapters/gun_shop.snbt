@@ -1,0 +1,2240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "gun_shop"
+	group: "12676BC35DAABE4A"
+	icon: "minecraft:emerald"
+	id: "1627FC9576408CFE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 6x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:springfield1873"
+				}
+			}
+			id: "117F6DBE7293D90F"
+			rewards: [{
+				auto: "no_toast"
+				id: "63D5881B0D4DCFD0"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:springfield1873"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				disable_toast: true
+				id: "1A287F4F5B90A915"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Springfield 1873"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 7x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:db_short"
+				}
+			}
+			id: "669191DC4E0A80B9"
+			rewards: [{
+				auto: "no_toast"
+				id: "2BC1215FE582AB9A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "BURST"
+						GunId: "tacz:db_short"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				disable_toast: true
+				id: "20E50926F636276B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Sawed-off Double Barrel"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:glock_17"
+				}
+			}
+			id: "6B8A2E2BB828FE0A"
+			rewards: [{
+				auto: "no_toast"
+				id: "07B06A9486639329"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:glock_17"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "55222E61887F7E66"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Glock 17"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m9a4"
+				}
+			}
+			id: "0586161AF7B3C9E5"
+			rewards: [{
+				auto: "no_toast"
+				id: "48D5AAB93193B79B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m9a4"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "209BB65E54B1A5F3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "M9A4"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:cz75"
+				}
+			}
+			id: "0B5A8DAAA610C13A"
+			rewards: [{
+				auto: "no_toast"
+				id: "40EC1BEF4AA441D3"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:cz75"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "6576B5C8188397E5"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "CZ 75"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 11x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m1911"
+				}
+			}
+			id: "1146C763DE3FC542"
+			rewards: [{
+				auto: "no_toast"
+				id: "23B56EB17DDBB465"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m1911"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 11L
+				disable_toast: true
+				id: "686C10AA69BFD89E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "M1911"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 11x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:db_long"
+				}
+			}
+			id: "5DF4809DA4998B23"
+			rewards: [{
+				auto: "no_toast"
+				id: "78B13901BB076A53"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:db_long"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 11L
+				disable_toast: true
+				id: "30883A54D8F6B975"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Double Barrel (Long)"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 15x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:b93r"
+				}
+			}
+			id: "1F7C9C015A719E85"
+			rewards: [{
+				auto: "no_toast"
+				id: "5D9F112C29A278D7"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "BURST"
+						GunId: "tacz:b93r"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "7A44AA2800520F96"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "B93R"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 19x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m870"
+				}
+			}
+			id: "562C25865DCC256E"
+			rewards: [{
+				auto: "no_toast"
+				id: "3081594031B7B10E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m870"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 19L
+				disable_toast: true
+				id: "10EA2BAC99461879"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "M870"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 19x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:uzi"
+				}
+			}
+			id: "0E88F7D42668BB51"
+			rewards: [{
+				auto: "no_toast"
+				id: "56BFE84724F15A3D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:uzi"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 19L
+				disable_toast: true
+				id: "70A7450DAD1D06FA"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Uzi"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 20x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:type_81"
+				}
+			}
+			id: "7C502EAEB2460F18"
+			rewards: [{
+				auto: "no_toast"
+				id: "21A0589B4D212038"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:type_81"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "049783048F013394"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Type 81"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 24x Gold Ingot."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:hk_mp5a5"
+				}
+			}
+			id: "0FE85DFAA579C6F4"
+			rewards: [{
+				auto: "no_toast"
+				id: "202BD6530C0A160E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:hk_mp5a5"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gold tier"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				disable_toast: true
+				id: "60572C181B1D3E96"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "HK MP5A5"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 7x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m16a1"
+				}
+			}
+			id: "3DD36324BCB09B7C"
+			rewards: [{
+				auto: "no_toast"
+				id: "4EFA0302270BAE1F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:m16a1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				disable_toast: true
+				id: "3B437CEBA9828020"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M16A1"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:p320"
+				}
+			}
+			id: "40FEFC2657C0C858"
+			rewards: [{
+				auto: "no_toast"
+				id: "165C01402B4A9B06"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:p320"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "28B12F2B8DBD2DF4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "P320"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m16a4"
+				}
+			}
+			id: "1B942F47C548247E"
+			rewards: [{
+				auto: "no_toast"
+				id: "767ED221B2878B77"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "BURST"
+						GunId: "tacz:m16a4"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "6A0F68D813DF7701"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M16A4"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m4a1"
+				}
+			}
+			id: "30556C5360490B69"
+			rewards: [{
+				auto: "no_toast"
+				id: "62B7AC62D9507B48"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:m4a1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "5E344A9DE5E5C45A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M4A1"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ak47"
+				}
+			}
+			id: "4CC8866C3A7291F1"
+			rewards: [{
+				auto: "no_toast"
+				id: "3C1D5327A8E747D3"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:ak47"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "29E447F9BC43A937"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "AK-47"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 9x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:aug"
+				}
+			}
+			id: "6AC90A9503A7570C"
+			rewards: [{
+				auto: "no_toast"
+				id: "26DBCC6C2E6ECB64"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:aug"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				disable_toast: true
+				id: "4E3724FB40C4C6E4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "AUG"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 9x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:hk_mk23"
+				}
+			}
+			id: "45EDACD506960214"
+			rewards: [{
+				auto: "no_toast"
+				id: "62AD486102238AD7"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:hk_mk23"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				disable_toast: true
+				id: "4E047F4F687D1E74"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "HK Mk23"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 9x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:sks_tactical"
+				}
+			}
+			id: "3C429113521EDE10"
+			rewards: [{
+				auto: "no_toast"
+				id: "18870B60A1885B47"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:sks_tactical"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				disable_toast: true
+				id: "60481398D8419B78"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "SKS Tactical"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:rhino357"
+				}
+			}
+			id: "2F8CE5A083422EBA"
+			rewards: [{
+				auto: "no_toast"
+				id: "77659FDFF40BAFA0"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:rhino357"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "06035964602D7F6A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Rhino .357"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:qbz_95"
+				}
+			}
+			id: "6EB43177A8302DA8"
+			rewards: [{
+				auto: "no_toast"
+				id: "146A44688159919E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:qbz_95"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "2090755BE028C61D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "QBZ-95"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m700"
+				}
+			}
+			id: "76C00B6362FE8315"
+			rewards: [{
+				auto: "no_toast"
+				id: "5F32C5C11D8C5A63"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m700"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "77D6C54B05EF4252"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M700"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 13x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:kar98"
+				}
+			}
+			id: "7CDB18EF928E7EAD"
+			rewards: [{
+				auto: "no_toast"
+				id: "26D7EEE284F8B588"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:kar98"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 13L
+				disable_toast: true
+				id: "5B8B7374F21D20B8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Kar98k"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 13x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:lonetrail"
+				}
+			}
+			id: "30497E427406E498"
+			rewards: [{
+				auto: "no_toast"
+				id: "4A171D7FE34DD855"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:lonetrail"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 13L
+				disable_toast: true
+				id: "7FBC066BD9E367E1"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Lonetrail"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:scar_l"
+				}
+			}
+			id: "79385FA4B19EDEC6"
+			rewards: [{
+				auto: "no_toast"
+				id: "4AE367E87593F347"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:scar_l"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 14L
+				disable_toast: true
+				id: "60C25E77CA611309"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "SCAR-L"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:timeless50"
+				}
+			}
+			id: "0544A63EA1071C05"
+			rewards: [{
+				auto: "no_toast"
+				id: "7B38710166DB9F90"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:timeless50"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 14L
+				disable_toast: true
+				id: "4F8E87B5772E9770"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Timeless .50"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ump45"
+				}
+			}
+			id: "68ACA989FFC4D7F7"
+			rewards: [{
+				auto: "no_toast"
+				id: "4AAC1B92AD540F62"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:ump45"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "1B79B068BD54EB82"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "UMP45"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:deagle"
+				}
+			}
+			id: "270C2B3574659205"
+			rewards: [{
+				auto: "no_toast"
+				id: "2835615E15DDE6EC"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:deagle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "38149FC48416D87B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Desert Eagle"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:rpg7"
+				}
+			}
+			id: "50D12D5D19241AE0"
+			rewards: [{
+				auto: "no_toast"
+				id: "5D2590B293AC9DD8"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:rpg7"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				disable_toast: true
+				id: "5B68AD467A6E1635"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "RPG-7"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 19x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m320"
+				}
+			}
+			id: "20CDAA6B215E977D"
+			rewards: [{
+				auto: "no_toast"
+				id: "49517DCB6E92A555"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m320"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 19L
+				disable_toast: true
+				id: "6372E04FF07FD108"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M320 Grenade Launcher"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 21x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:rpk"
+				}
+			}
+			id: "5C2432B948ACDB41"
+			rewards: [{
+				auto: "no_toast"
+				id: "486F73AFC89D83FF"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:rpk"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 21L
+				disable_toast: true
+				id: "0415F256CD7A130D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "RPK"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 21x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:hk_g3"
+				}
+			}
+			id: "3C0B23AE3BC2F2CB"
+			rewards: [{
+				auto: "no_toast"
+				id: "013EC40A22E53F5D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:hk_g3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 21L
+				disable_toast: true
+				id: "029D0BE5735B2B57"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "HK G3"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 22x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m1014"
+				}
+			}
+			id: "3E2B02CECD06DEE1"
+			rewards: [{
+				auto: "no_toast"
+				id: "1B5855EC9F4AA881"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m1014"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 22L
+				disable_toast: true
+				id: "67B1E5618763464F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "M1014"
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 23x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:fn_fal"
+				}
+			}
+			id: "53B55EFB464509BB"
+			rewards: [{
+				auto: "no_toast"
+				id: "5B250BD6B74E463F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:fn_fal"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 23L
+				disable_toast: true
+				id: "5374660838B99D36"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "FN FAL"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 23x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:p90"
+				}
+			}
+			id: "4BE77B62DF7AB180"
+			rewards: [{
+				auto: "no_toast"
+				id: "2A9EF1813D097DA0"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:p90"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 23L
+				disable_toast: true
+				id: "273A1DD77E64B1A7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "P90"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 24x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:qbz_191"
+				}
+			}
+			id: "1F8D5F9513110C41"
+			rewards: [{
+				auto: "no_toast"
+				id: "53C02E8055C8E8CA"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:qbz_191"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				disable_toast: true
+				id: "4DA7D7C277A45B9B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "QBZ-191"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 26x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:spr15hb"
+				}
+			}
+			id: "52E43BD8C469B3C4"
+			rewards: [{
+				auto: "no_toast"
+				id: "14DBB82472846DB2"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:spr15hb"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 26L
+				disable_toast: true
+				id: "3A7B91D551D03379"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "SPR-15HB"
+			x: 10.5d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 27x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:g36k"
+				}
+			}
+			id: "64C9D5BAA3690744"
+			rewards: [{
+				auto: "no_toast"
+				id: "4F53733955A772FD"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:g36k"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 27L
+				disable_toast: true
+				id: "11A961B2C3DF965A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "G36K"
+			x: 12.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 27x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:hk416d"
+				}
+			}
+			id: "7BDAD0BC50D1BCC5"
+			rewards: [{
+				auto: "no_toast"
+				id: "1461D03EE7FF497B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:hk416d"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 27L
+				disable_toast: true
+				id: "5365E51D35BEB8A2"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "HK416D"
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 27x Diamond."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:deagle_golden"
+				}
+			}
+			id: "5D44179A3BFA0A48"
+			rewards: [{
+				auto: "no_toast"
+				id: "232FC8EB6F59BBB2"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:deagle_golden"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Diamond tier"
+			tasks: [{
+				consume_items: true
+				count: 27L
+				disable_toast: true
+				id: "3966816E7248016E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Golden Desert Eagle"
+			x: 1.5d
+			y: 8.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 19x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:aa12"
+				}
+			}
+			id: "537161B97CE0E276"
+			rewards: [{
+				auto: "no_toast"
+				id: "6E168A9F549FA6BB"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:aa12"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 19L
+				disable_toast: true
+				id: "4FD75404DB1BD2F0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "AA-12"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 21x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:scar_h"
+				}
+			}
+			id: "54FDB963BD185DB3"
+			rewards: [{
+				auto: "no_toast"
+				id: "56CD38151504047B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:scar_h"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 21L
+				disable_toast: true
+				id: "3B802B291F1C29FA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "SCAR-H"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 22x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:spas_12"
+				}
+			}
+			id: "77AADA68FBFBA7D6"
+			rewards: [{
+				auto: "no_toast"
+				id: "3F91702DAD5B65F6"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:spas_12"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 22L
+				disable_toast: true
+				id: "2B1F4ABAAC00257B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "SPAS-12"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 22x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:mk14"
+				}
+			}
+			id: "0032C3130B8E1073"
+			rewards: [{
+				auto: "no_toast"
+				id: "1866106473223ABD"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:mk14"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 22L
+				disable_toast: true
+				id: "04FA217A46C66364"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Mk14 EBR"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 23x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m249"
+				}
+			}
+			id: "0951CA5133B0E97E"
+			rewards: [{
+				auto: "no_toast"
+				id: "263EB388DA00EA02"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:m249"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 23L
+				disable_toast: true
+				id: "5BFB73EA91DD3215"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "M249"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 24x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:vector45"
+				}
+			}
+			id: "04C2155A86A80DE9"
+			rewards: [{
+				auto: "no_toast"
+				id: "2B1EAEBC09430CD9"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:vector45"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				disable_toast: true
+				id: "389683CEEB5226D3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Vector 45"
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 37x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:fn_evolys"
+				}
+			}
+			id: "34C1351F6E9B8957"
+			rewards: [{
+				auto: "no_toast"
+				id: "6A525D2EA799E304"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:fn_evolys"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 37L
+				disable_toast: true
+				id: "0A9909FEEB5A67BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "FN Evolys"
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 46x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:taurus500"
+				}
+			}
+			id: "4A572B353F96FC1A"
+			rewards: [{
+				auto: "no_toast"
+				id: "451C7CAB954FB4BD"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:taurus500"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 46L
+				disable_toast: true
+				id: "7731201F004025EE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Taurus 500"
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 55x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ai_awp"
+				}
+			}
+			id: "5D1501CB400C7266"
+			rewards: [{
+				auto: "no_toast"
+				id: "7DF8C9DC2C6ECD7D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:ai_awp"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 55L
+				disable_toast: true
+				id: "27CA077660F425C0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "AI AWP"
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 64x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m95"
+				}
+			}
+			id: "5FDBB9F6A07C3674"
+			rewards: [{
+				auto: "no_toast"
+				id: "3E646994F9F2D5CC"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m95"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "680B9537F876AD5E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "M95"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 64x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m107"
+				}
+			}
+			id: "55335C39809AC85F"
+			rewards: [{
+				auto: "no_toast"
+				id: "46EA5EF935AD42FD"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:m107"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "468B846477770A6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "M107"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 64x Emerald."
+				"Ammo: see the Ammo chapters. Attachments: see the Attachments chapters."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:minigun"
+				}
+			}
+			id: "0CD7AE8485CD8DEE"
+			rewards: [{
+				auto: "no_toast"
+				id: "285771D82FC3CCC9"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "AUTO"
+						GunId: "tacz:minigun"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Emerald tier, rare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "3150C8E835DA8BDD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Minigun"
+			x: 3.0d
+			y: 12.0d
+		}
+	]
+	title: "Gun Shop"
+}

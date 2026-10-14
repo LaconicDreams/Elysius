@@ -1,0 +1,88 @@
+{
+  "parent": "modpack:bote/rang/root",
+  "criteria": {
+    "a0": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elytra_extras:bote/pakt": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "a1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elytra_extras:bote/wish_macht": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "a2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elytra_extras:bote/wish_schutz": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "a3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elytra_extras:bote/wish_wissen": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a0",
+      "a1",
+      "a2",
+      "a3"
+    ]
+  ],
+  "rewards": {
+    "function": "modpack:bote/rang/quelle/pakt"
+  }
+}

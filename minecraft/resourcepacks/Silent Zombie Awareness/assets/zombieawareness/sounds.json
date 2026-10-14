@@ -1,0 +1,14 @@
+{
+  "alert": {
+    "replace": true,
+    "sounds": []
+  },
+  "target": {
+    "replace": true,
+    "sounds": []
+  },
+  "investigate": {
+    "replace": true,
+    "sounds": []
+  }
+}

@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "ammo_shotguns_launchers"
+	group: "12676BC35DAABE4A"
+	icon: {
+		Count: 1
+		id: "tacz:ammo"
+		tag: {
+			AmmoId: "tacz:rpg_rocket"
+		}
+	}
+	id: "4A3871CF36FAD01B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of 12 Gauge."
+				"Fits: AA-12, Double Barrel (Long), M1014, M870, Sawed-off Double Barrel, SPAS-12"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+			id: "7F74ED6C68DE281C"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "200CBA05C8C7126D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:12g"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AA-12, Double Barrel (Long), M1014 +3"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0F7301BA750FA656"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "12 Gauge Ammo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Iron Ingot = 36 rounds of 12 Gauge."
+				"Fits: AA-12, Double Barrel (Long), M1014, M870, Sawed-off Double Barrel, SPAS-12"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+			id: "1C3D2143C0154C7E"
+			rewards: [{
+				auto: "no_toast"
+				count: 36
+				id: "2C57C85EDB390123"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:12g"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AA-12, Double Barrel (Long), M1014 +3"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "423E627D3A31ED30"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "12 Gauge Ammo x36"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"2x Gunpowder + 2x Iron Ingot = 1 round of 40mm Grenade."
+				"Fits: M320 Grenade Launcher"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:40mm"
+				}
+			}
+			id: "3BBF73347E8F322A"
+			rewards: [{
+				auto: "no_toast"
+				id: "1D0E60E07B0BB53B"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:40mm"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: M320 Grenade Launcher"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "282B725E0F75C068"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "2230330257A675A0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "40mm Grenade Ammo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Gunpowder + 12x Iron Ingot = 6 rounds of 40mm Grenade."
+				"Fits: M320 Grenade Launcher"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:40mm"
+				}
+			}
+			id: "2DC7EFAB1D9FA2D3"
+			rewards: [{
+				auto: "no_toast"
+				count: 6
+				id: "0D003DDA602E4433"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:40mm"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: M320 Grenade Launcher"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "303A85E7F3501998"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "36205DEFB6AF9715"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "40mm Grenade Ammo x6"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"3x Gunpowder + 3x Iron Ingot = 1 round of RPG Rocket."
+				"Fits: RPG-7"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:rpg_rocket"
+				}
+			}
+			id: "05CB26EDF49C56C9"
+			rewards: [{
+				auto: "no_toast"
+				id: "191972A5742E0473"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:rpg_rocket"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: RPG-7"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "5F47CF2C6D521519"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "78C62860F8A18B33"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "RPG Rocket Ammo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"18x Gunpowder + 18x Iron Ingot = 6 rounds of RPG Rocket."
+				"Fits: RPG-7"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:rpg_rocket"
+				}
+			}
+			id: "3B0C86FF5963D319"
+			rewards: [{
+				auto: "no_toast"
+				count: 6
+				id: "449573545A96B4C7"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:rpg_rocket"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: RPG-7"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "69F9F9BFA85396FD"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "341D7F6AA988DE7F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "RPG Rocket Ammo x6"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Ammo: Shotguns and Launchers"
+}

@@ -1,0 +1,18 @@
+filename = 'nyfsspiders-Forge-1.20.1-3.0.2.jar'
+name = "Nyf's Spiders"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.2'
+
+[download]
+hash = '2a9e4b1c7616f5f021f6f6c9699b33b19800d1e725b81c75589890922feaa9736de2654dc3cbe62fafa6a601cd12451b638cf2e748f271fd0cc21eecfbca0918'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dOGM7ccu/versions/GeT9s6R6/nyfsspiders-Forge-1.20.1-3.0.2.jar'
+
+[update.modrinth]
+mod-id = 'dOGM7ccu'
+version = 'GeT9s6R6'

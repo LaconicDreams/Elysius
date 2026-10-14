@@ -1,0 +1,23 @@
+{
+  "parent": "elytra_dungeons:bosses/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": {
+      "text": "Eye of the Storm"
+    },
+    "description": {
+      "text": "Destroy the Tempest Herald above the Storm Spire"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

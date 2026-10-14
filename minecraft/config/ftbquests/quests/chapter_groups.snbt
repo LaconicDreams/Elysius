@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "258CD569623A7A73", title: "Quests" }
+		{ id: "6231D5D824A79023", title: "Dimensions" }
+		{ id: "12676BC35DAABE4A", title: "Shop" }
+		{ id: "5AD62D5B0AB5AA58", title: "Attachments" }
+	]
+}

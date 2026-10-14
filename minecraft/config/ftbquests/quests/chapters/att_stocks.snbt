@@ -1,0 +1,736 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_stocks"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:stock_ak12"
+		}
+	}
+	id: "461D248E7290BF52"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 6x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:oem_stock_heavy"
+				}
+			}
+			id: "2F5B01B17B01DD45"
+			rewards: [{
+				auto: "no_toast"
+				id: "4515250546DE54D5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:oem_stock_heavy"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "1C19E72C233D804A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "15B166A658DFA29E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "OEM Heavy Stock"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot + 2x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:oem_stock_light"
+				}
+			}
+			id: "5DF3B3269917659A"
+			rewards: [{
+				auto: "no_toast"
+				id: "7EEBA2220C02CC08"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:oem_stock_light"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "63B9E3059F59ECE4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "273552C7CE7DC120"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "OEM Light Stock"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:oem_stock_tactical"
+				}
+			}
+			id: "4F533ECA1F35399E"
+			rewards: [{
+				auto: "no_toast"
+				id: "3F7BA55C1B94021E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:oem_stock_tactical"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "6382BB17BEBCE0E8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "48F20F50603887B8"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "OEM Tactical Stock"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_ak12"
+				}
+			}
+			id: "12301217EFB9B390"
+			rewards: [{
+				auto: "no_toast"
+				id: "060FE55D0ED39497"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_ak12"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "3379169C44909A82"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "6CDB60F2EAA912E5"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "AK12 Stock"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 3x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_carbon_bone_c5"
+				}
+			}
+			id: "1E00AB2023F32D6E"
+			rewards: [{
+				auto: "no_toast"
+				id: "098724CB1BBA2EA9"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_carbon_bone_c5"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "00BCF24007EBEB57"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "26D1ED6CE205FA19"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Carbon Bone C5 Stock"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 2x Gold Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_heavy_spas_12"
+				}
+			}
+			id: "0C46B99306F799E7"
+			rewards: [{
+				auto: "no_toast"
+				id: "5B5918AB1278BBA6"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_heavy_spas_12"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "05490AE6B04BCE67"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "08D41AC874B659D0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "188C256779CD4F87"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Heavy SPAS 12 Stock"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_hk_slim_line"
+				}
+			}
+			id: "2181293A3250290F"
+			rewards: [{
+				auto: "no_toast"
+				id: "389B893A25AC3562"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_hk_slim_line"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "2ECC3D736BCD6C96"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "7DC0D95F87F9FAC5"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "HK Slim Line Stock"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 8x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_m4ss"
+				}
+			}
+			id: "61A5B5795F365AF1"
+			rewards: [{
+				auto: "no_toast"
+				id: "40977061E8CA1877"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_m4ss"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "6C5A06BC4F744148"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "7E113F758BD95DF9"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "M4SS Stock"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_militech_b5"
+				}
+			}
+			id: "541E05C0DCFBE92D"
+			rewards: [{
+				auto: "no_toast"
+				id: "021B18FCA3D8F48A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_militech_b5"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "7FA2178DD2B49B4E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "355C36E4A4F183F8"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Militech B5 Stock"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_moe"
+				}
+			}
+			id: "3FF7A8A96B55AD91"
+			rewards: [{
+				auto: "no_toast"
+				id: "56C75905C916A1F0"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_moe"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "232A42AEDB2875E1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "2B6A51473A0ACF96"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "MOE Stock"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 12x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_ripstock"
+				}
+			}
+			id: "5A9D56F220E5DE7D"
+			rewards: [{
+				auto: "no_toast"
+				id: "10AE8FA244C89CC8"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_ripstock"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					disable_toast: true
+					id: "1F081E72B66BC448"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "0BFA096D85183BCB"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Ripstock Stock"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 5x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_sba3"
+				}
+			}
+			id: "0CD52EB842D28017"
+			rewards: [{
+				auto: "no_toast"
+				id: "3FB5EF10B35CEB80"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_sba3"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "653A88475C0888CD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "2F49086E3CAC1842"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "SBA3 Stock"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 4x Gold Ingot + 4x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_tactical_ar"
+				}
+			}
+			id: "7DB832819254BF65"
+			rewards: [{
+				auto: "no_toast"
+				id: "75CCD266093F1C9F"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_tactical_ar"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "02B479CD7E9F48F6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "5D57556E73A5EEFF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "1244DF608A7DDABA"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Tactical AR Stock"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 3x Leather."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_tactical_spas_12"
+				}
+			}
+			id: "64F0A9E7A477B42B"
+			rewards: [{
+				auto: "no_toast"
+				id: "24C5E9F7B9567DA9"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:stock_tactical_spas_12"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stock"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "27575371F72EBE85"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "3EF44AB1C68BF5B2"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Tactical SPAS 12 Stock"
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "Attachments: Stocks"
+}

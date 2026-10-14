@@ -1,0 +1,2 @@
+# the item itself (no flag, no message)
+give @s aether:phoenix_bow{Unbreakable:1b,Enchantments:[{id:"minecraft:power",lvl:5s},{id:"minecraft:punch",lvl:2s},{id:"minecraft:infinity",lvl:1s}],display:{Lore:['{"text": "Gabe des Boten", "color": "gold", "italic": false}','{"text": "Pfad: Wissen", "color": "light_purple", "italic": false}']},modpack_questitem:1b,modpack_pfad:"wissen",modpack_teil:"waffe1"} 1

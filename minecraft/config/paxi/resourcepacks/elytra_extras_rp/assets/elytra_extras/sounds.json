@@ -1,0 +1,18 @@
+{
+  "silence": {
+    "sounds": [
+      {
+        "name": "elytra_extras:silence"
+      }
+    ]
+  },
+  "wind": {
+    "sounds": [
+      {
+        "name": "ambientsounds:wind/light-wind",
+        "stream": true,
+        "attenuation_distance": 256
+      }
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "6231D5D824A79023"
+	icon: "minecraft:netherrack"
+	id: "57325260479EDE00"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Enter the Nether."]
+			id: "168DA6816667B855"
+			rewards: [{
+				count: 32
+				id: "1A3C501DFF8EB0A6"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Start here"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "00DC6A24B53A9976"
+				type: "dimension"
+			}]
+			title: "Through the Portal"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Blazes are best fought in the fortresses."
+				"Reward: AK-47 with 120 rounds of 7.62x39."
+			]
+			id: "183BF31C63811D9D"
+			rewards: [
+				{
+					id: "5EB806F4792DDD30"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:ak47"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "35A194CC4E1EABF0"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "5CE5DABBCC144421"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3DBD4C05FD9F5049"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "AK-47"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2D8BEADF4ABDD30C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Blaze Runner"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Wither skeletons patrol the fortresses."
+				"Reward: AA-12 with 48 rounds of 12 Gauge."
+			]
+			id: "6B8C70ADC9762ED1"
+			rewards: [
+				{
+					id: "6459E3715E53FAB0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:aa12"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "67FE7BF53D45B433"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "53E832BC6DC7247D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0EFF99D110283868"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "AA-12"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2EEE15BDB7790092"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Bone Crusher"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["183BF31C63811D9D"]
+			description: [
+				"Hoglins charge. Keep moving."
+				"Reward: M249 with 150 rounds of 5.56x45."
+			]
+			id: "19BC25CB17B35928"
+			rewards: [
+				{
+					id: "76DEB52E636C5F56"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:m249"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "5250EDA362838604"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "7CCE4F1CE5119FDA"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "73DBD6D475D2F97D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5592F6C192446546"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "M249"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "5761CE1F16DE0BBF"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Hoglin Hunt"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B8C70ADC9762ED1"]
+			description: [
+				"Brutes guard the bastions. Expect a fight."
+				"Reward: M700 with 40 rounds of .30-06."
+			]
+			id: "1ED6A6C7FEDCCADC"
+			rewards: [
+				{
+					id: "676C799D8A94FC43"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m700"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "4D95427C15A44E6C"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:30_06"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C3DA6759F155BD9"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:30_06"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2D35A77523066CF0"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "M700"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "52B3036D47A9DF81"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Brute Force"
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Nether Bounties"
+}

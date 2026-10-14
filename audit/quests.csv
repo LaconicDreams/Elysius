@@ -1,0 +1,300 @@
+﻿Kapitel-Datei;Quest-ID;Titel;Kategorie;wiederholbar;Belohnungsart;Abhängigkeiten;Empfehlung
+aether.snbt;7898FB99A05E61B2;Sky Kingdom;Meilenstein;nein;Raketen;;zusammenlegen
+aether.snbt;7D242BC8D031D4AF;Zephyr Chase;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+aether.snbt;04BAA2C9C8D0BD92;Stone Cold;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+aether.snbt;7BD39C416E4373CA;Sentry Shutdown;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+aether.snbt;0002AD536C30A8A8;Gatekeeper;Nebenquest;nein;Waffe+Munition+Raketen;7BD39C416E4373CA (Sentry Shutdown);zusammenlegen
+ammo_heavy.snbt;3397C4DEFC1E0672;.30-06 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;197B6C4E05DA02D8;.30-06 Ammo x36;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;4C5F20879C171B03;.338 Lapua Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;7387BC8A5B26D05A;.338 Lapua Ammo x30;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;4A99C578C0DAEAC6;.45-70 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;56555464CE71673B;.45-70 Ammo x48;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;2C41B1C299CD2A94;.50 BMG Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_heavy.snbt;0A1975D8BFF43E9C;.50 BMG Ammo x30;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;40181A41232F91B5;9mm Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;2A85B482A8AA9AF2;9mm Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;58CDB7821E861875;.45 ACP Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;586DD67DED82F28A;.45 ACP Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;3C1C957C580E068A;.22 WMR Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;62D974DB059733E3;.22 WMR Ammo x64;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;5EE2D6608964B7E2;4.6x30 Ammo;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_pistols_smgs.snbt;62CEF4C70EACFA27;4.6x30 Ammo x60;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_pistols_smgs.snbt;50064ADEC83E071A;5.7x28 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;47D3376C8E119A13;5.7x28 Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;7394573A6990E780;7.62x25 Ammo;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_pistols_smgs.snbt;0B217045DF9C31B4;7.62x25 Ammo x60;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_pistols_smgs.snbt;7B338E0E5EE3C7A3;.357 Magnum Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;62434E15DAE3F6E1;.357 Magnum Ammo x48;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;325D419F13268D3B;.50 AE Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;5F2D818BA6FB606E;.50 AE Ammo x48;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;4C1A3D28AE3DA56D;.500 Magnum Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_pistols_smgs.snbt;44BED817CBFC1108;.500 Magnum Ammo x42;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;3A94CF80EA9208C8;5.56x45 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;291F93328BFF656D;5.56x45 Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;12C88C9288A7DEC1;7.62x39 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;72BA717B61E2D96D;7.62x39 Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;3583867749817882;5.45x39 Ammo;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;3E2146DAFD47A6A6;5.45x39 Ammo x60;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;0BED1DCB8FA6E6A4;5.8x42 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;52CE09DE332875E8;5.8x42 Ammo x60;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;0C991BEA537AC95F;.308 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;093EB90B7D2CB5E3;.308 Ammo x48;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;7C85274E23C56BCD;6.8x51 FURY Ammo;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;2BEA3F1FF623D20C;6.8x51 FURY Ammo x60;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;421D4288127B544C;7.62x54R Ammo;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;6A9F94514EAC113B;7.62x54R Ammo x60;Shop;ja;Munition;;später streichen (keine Waffe nutzt dieses Kaliber)
+ammo_rifles.snbt;522DEE3109DF34F2;7.92x57 Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_rifles.snbt;358FA111F8F3E026;7.92x57 Ammo x36;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;7F74ED6C68DE281C;12 Gauge Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;1C3D2143C0154C7E;12 Gauge Ammo x36;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;3BBF73347E8F322A;40mm Grenade Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;2DC7EFAB1D9FA2D3;40mm Grenade Ammo x6;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;05CB26EDF49C56C9;RPG Rocket Ammo;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+ammo_shotguns_launchers.snbt;3B0C86FF5963D319;RPG Rocket Ammo x6;Shop;ja;Munition;;"kürzen; Einzel+Stack zusammenlegen"
+att_grips.snbt;5AC71CD393A93842;Cobra Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;7ED954255CD09F7B;Magpul AFG 2 Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;0A2D0C025A09399B;Osovets Black Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;3D639C3E2CCCB963;RK0 Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;3949974A3701946A;RK1 B25U Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;417669C2BCB315C7;RK6 Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;45DBB957C952FCFF;SE 5 Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;44DE1E19C202F1A5;TD Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;61DE4EA5DD54C034;Vertical Military Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;6ED7A011AA3A060C;Vertical Ranger Grip;Shop;ja;Aufsatz;;später streichen
+att_grips.snbt;62D4A39FC8B51F1E;Vertical Talon Grip;Shop;ja;Aufsatz;;später streichen
+att_lasers.snbt;6384DA70B0AEDF47;Compact Laser;Shop;ja;Aufsatz;;später streichen
+att_lasers.snbt;0D97849CDE9294B8;Lopro Laser;Shop;ja;Aufsatz;;später streichen
+att_lasers.snbt;4F33A7B24E5F19B8;Nightstick Laser;Shop;ja;Aufsatz;;später streichen
+att_lasers.snbt;59FC60A2FCD404AD;PEQ6 Laser;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;664D21DCACAF1E4D;Extended Mag I;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;0457945516BD83E7;Extended Mag II;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;6ECD5D93A32628A2;Extended Mag III;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;5E9AB364367205BF;Light Extended Mag I;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;5A210989A21CCF48;Light Extended Mag II;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;3E6A6806D985C3D9;Light Extended Mag III;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;245174F35F2AE4F2;Shotgun Extended Mag I;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;747EC961937E26B4;Shotgun Extended Mag II;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;32DC5A882D9C94C5;Shotgun Extended Mag III;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;2067BA8DB4F4230E;Sniper Extended Mag I;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;60C89A5A6726B92F;Sniper Extended Mag II;Shop;ja;Aufsatz;;später streichen
+att_magazines.snbt;733FE0A7CFA487B9;Sniper Extended Mag III;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;04A79BA8C926E46B;Cthulhu Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;0FA13DEE925C31D1;Cyclone D2 Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;61AE512795EFC9FD;Mastiff SG Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;44967E3A6FE6ED59;Pioneer Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;0E86D1A06C55EEED;TIMELESS50 Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;3485D84338C60E09;Trex Brake;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;34ED68DE1250CB6B;SG Choke;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;5A7DFB312ED7878E;Trident Compensator;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;444EE11DC4C18FE6;Knight QD Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;65BF138E43A8CEBA;Mirage Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;387F1C0CFDBD12D7;Phantom S1 Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;775A9AFCC2671B5C;Ptilopsis Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;12930ECE910B7B70;SG Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;2763B25CD30FF3DC;Ursus Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;5E08784E6E46B7A8;Vulture Silencer;Shop;ja;Aufsatz;;später streichen
+att_muzzles.snbt;7112187F06A5B90D;Wraith Silencer;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;0DE370AD6F053474;1873 6X Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;56C769C557B508FA;98K Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;2ABC93AC9EA0E630;ACOG TA31 Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;145727AE6ABC4996;Contender Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;1526590FB356E439;Elcan 4X Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;209F2FB3551D6CCD;HAMR Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;6E8CCC0328A8139A;LPVO 1 6 Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;1646F2450800B4D4;MK5HD Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;05D6B2B71B3F9FA8;QMK152 Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;2CBD86234E05504A;Retro 2X Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;376C994071EA6670;Standard 8X Scope;Shop;ja;Aufsatz;;später streichen
+att_scopes.snbt;3355973233A63D28;Vudu Scope;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;5B292883768B597C;552 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;2A58CF8749B94E23;Acro Pistol Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;6591AF614536145C;Acro Rifle Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;5711E1FE5BC0CF9E;Coyote Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;11D7BC5FC41BA88D;Deltapoint Pistol Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;09DFAA645D6CC93D;Deltapoint Rifle Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;60F4FFD723A43DDE;EXP3 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;78F663902E2027D2;Fastfire Pistol Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;1CADA5B1DC8A1827;Fastfire Rifle Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;41E0ADEB15C00A93;OKP7 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;7FA9D05AA861285F;PK06 Pistol Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;1C20580334F86D39;PK06 Rifle Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;1969A014570DB3A4;RMR Dot Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;33BBFFF203A7C7DF;SRO Dot Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;1FAAD59250D4FE05;SRS 02 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;4392267AF4456C5C;T1 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;59C59C18B58E8D13;T2 Sight;Shop;ja;Aufsatz;;später streichen
+att_sights.snbt;695B2A95206AB99C;UH1 Sight;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;44A14E3C2A941C81;Ammo Mod: FMJ;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;63D1C3C3E0F0EA56;Ammo Mod: HE;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;1AEDFEB1E862E9D2;Ammo Mod: HP;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;0C242183AEABA575;Ammo Mod: I;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;5F03BF2CADCEAE6B;Ammo Mod: Slug;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;3AAE0719245A0DFD;6H3 Bayonet;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;1589225AC5242EC5;M9 Bayonet;Shop;ja;Aufsatz;;später streichen
+att_specials.snbt;54E1255D60A634E3;Deagle Golden Long Barrel;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;2F5B01B17B01DD45;OEM Heavy Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;5DF3B3269917659A;OEM Light Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;4F533ECA1F35399E;OEM Tactical Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;12301217EFB9B390;AK12 Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;1E00AB2023F32D6E;Carbon Bone C5 Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;0C46B99306F799E7;Heavy SPAS 12 Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;2181293A3250290F;HK Slim Line Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;61A5B5795F365AF1;M4SS Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;541E05C0DCFBE92D;Militech B5 Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;3FF7A8A96B55AD91;MOE Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;5A9D56F220E5DE7D;Ripstock Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;0CD52EB842D28017;SBA3 Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;7DB832819254BF65;Tactical AR Stock;Shop;ja;Aufsatz;;später streichen
+att_stocks.snbt;64F0A9E7A477B42B;Tactical SPAS 12 Stock;Shop;ja;Aufsatz;;später streichen
+backpack_upgrades.snbt;5B6FF38B41415A2C;Sticky Fingers;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;2B62A3AD9DA8238F;Portable Workbench;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;68B75B48E99F73F2;Never Hungry;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;6B62E354C59220FA;Liquid Cargo;Nebenquest;nein;Sonstiges;68B75B48E99F73F2 (Never Hungry);behalten
+backpack_upgrades.snbt;7A2A1515F50F169C;Hot Pocket;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;6DB61A74C828FB7D;Smokehouse;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;2B298B98CACDC066;Forge on Your Back;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;7F3D14272B9FE6B6;Soundtrack of the Skies;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;126BEF73FECDE3B5;Gravity Well;Nebenquest;nein;Sonstiges;;behalten
+backpack_upgrades.snbt;3F79A8AFBA701070;Black Hole;Nebenquest;nein;Sonstiges;126BEF73FECDE3B5 (Gravity Well);behalten
+backpack_upgrades.snbt;24521B1CB683ED3C;Always Stocked;Nebenquest;nein;Sonstiges;3F79A8AFBA701070 (Black Hole);behalten
+boss_dungeons.snbt;2FEAF76DCFC17A21;Ash to Ash;Story;nein;Waffe+Munition;;in die Story verschieben
+boss_dungeons.snbt;544CFBCB2A486172;Eye of the Storm;Story;nein;Waffe+Munition;;in die Story verschieben
+boss_dungeons.snbt;7E465CDA0E2AA128;Into the Hollow;Story;nein;Waffe+Munition;;in die Story verschieben
+elytra_start.snbt;1B6D4F0A8C27E359;Target Practice;Tutorial/Einstieg;nein;Waffe+Munition;;kürzen
+elytra_start.snbt;6F3A1D8E5B0C2947;First Flight;Tutorial/Einstieg;nein;Raketen;1B6D4F0A8C27E359 (Target Practice);kürzen
+elytra_start.snbt;3B9E6D0A4C1F7582;Night Sky Hunter;Tutorial/Einstieg;nein;Raketen;6F3A1D8E5B0C2947 (First Flight);kürzen
+elytra_start.snbt;7E0B3A5D9C2F1846;Outpost Scout;Tutorial/Einstieg;nein;Raketen;3B9E6D0A4C1F7582 (Night Sky Hunter);kürzen
+elytra_start.snbt;77403BCC49B91B4E;Scenic Route;Nebenquest;nein;Raketen;6F3A1D8E5B0C2947 (First Flight);kürzen
+elytra_start.snbt;6E34BAA536A5BB06;Long Haul;Nebenquest;nein;Munition+Raketen;;kürzen
+elytra_start.snbt;4FD36981BB54C6E2;Nether Glider;Nebenquest;nein;Raketen;1B6D4F0A8C27E359 (Target Practice);kürzen
+elytra_start.snbt;107DE80F4731A1E8;Into the End;Nebenquest;nein;Raketen;3B9E6D0A4C1F7582 (Night Sky Hunter);kürzen
+elytra_start.snbt;46FFE18B522B776D;Sky's the Limit;Nebenquest;nein;Munition+Raketen+Sonstiges;107DE80F4731A1E8 (Into the End);kürzen
+elytra_start.snbt;6320A9AF96952E8E;Ghast Hunter;Meilenstein;nein;Waffe+Munition+Raketen;;kürzen
+elytra_start.snbt;55431678F31490D1;Deep Dark Delve;Meilenstein;nein;Waffe+Munition+Raketen;3B9E6D0A4C1F7582 (Night Sky Hunter);kürzen
+elytra_start.snbt;4E86919D1D5FF324;Elder's Wrath;Meilenstein;nein;Raketen+Sonstiges;3B9E6D0A4C1F7582 (Night Sky Hunter);kürzen
+elytra_start.snbt;52F2C80C1CFF1843;Wither Sky;Meilenstein;nein;Raketen+Sonstiges;6320A9AF96952E8E (Ghast Hunter);kürzen
+elytra_start.snbt;07CAF7E8360FA04B;End City Raid;Meilenstein;nein;Raketen+Sonstiges;107DE80F4731A1E8 (Into the End);"kürzen; doppeltes Ziel"
+elytra_start.snbt;4C9430A7798ACB77;Dragon Slayer;Meilenstein;nein;Waffe+Munition+Raketen+Sonstiges;07CAF7E8360FA04B (End City Raid);"kürzen; doppeltes Ziel"
+good_deeds.snbt;7501BA2FF4F7E64E;Hero of the Village;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;29D65D20E3B057C7;Zombie Doctor;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;3812F9FF44E02589;Hired Help;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;7CF3E936E37A53F1;Best Friends Forever;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;085396A2C05CD0E2;Making a Family;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;784305FAA0295D6E;A Seedy Place;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;364150805F5E36E4;Bee Our Guest;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;12EBAAFBA40707DD;Total Beelocation;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;75638E32A875D198;Fishy Business;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;7C70CDA18A6E01D0;A Fair Deal;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;615C28755FE70816;A Complete Catalogue;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;50B3AE4140A351E8;Two by Two;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;3662876333132116;Sweet Dreams;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;0F26EF330236D1D9;Bring Home the Beacon;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;4AC605D4CEC93332;Surge Protector;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;7A45D7B22C415ADC;A Balanced Diet;Nebenquest;nein;Shulker;;kürzen
+good_deeds.snbt;3759C73CE02AD330;Pillar of the Community;Meilenstein;nein;Shulker+Sonstiges;29D65D20E3B057C7 (Zombie Doctor) 3812F9FF44E02589 (Hired Help) 7CF3E936E37A53F1 (Best Friends Forever) 784305FAA0295D6E (A Seedy Place) 364150805F5E36E4 (Bee Our Guest) 75638E32A875D198 (Fishy Business) 7C70CDA18A6E01D0 (A Fair Deal) 50B3AE4140A351E8 (Two by Two) 3662876333132116 (Sweet Dreams);kürzen
+gun_shop.snbt;117F6DBE7293D90F;Springfield 1873;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;669191DC4E0A80B9;Sawed-off Double Barrel;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;6B8A2E2BB828FE0A;Glock 17;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0586161AF7B3C9E5;M9A4;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0B5A8DAAA610C13A;CZ 75;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;1146C763DE3FC542;M1911;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;5DF4809DA4998B23;Double Barrel (Long);Shop;ja;Waffe;;später streichen
+gun_shop.snbt;1F7C9C015A719E85;B93R;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;562C25865DCC256E;M870;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0E88F7D42668BB51;Uzi;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;7C502EAEB2460F18;Type 81;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0FE85DFAA579C6F4;HK MP5A5;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;3DD36324BCB09B7C;M16A1;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;40FEFC2657C0C858;P320;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;1B942F47C548247E;M16A4;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;30556C5360490B69;M4A1;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;4CC8866C3A7291F1;AK-47;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;6AC90A9503A7570C;AUG;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;45EDACD506960214;HK Mk23;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;3C429113521EDE10;SKS Tactical;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;2F8CE5A083422EBA;Rhino .357;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;6EB43177A8302DA8;QBZ-95;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;76C00B6362FE8315;M700;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;7CDB18EF928E7EAD;Kar98k;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;30497E427406E498;Lonetrail;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;79385FA4B19EDEC6;SCAR-L;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0544A63EA1071C05;Timeless .50;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;68ACA989FFC4D7F7;UMP45;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;270C2B3574659205;Desert Eagle;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;50D12D5D19241AE0;RPG-7;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;20CDAA6B215E977D;M320 Grenade Launcher;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;5C2432B948ACDB41;RPK;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;3C0B23AE3BC2F2CB;HK G3;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;3E2B02CECD06DEE1;M1014;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;53B55EFB464509BB;FN FAL;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;4BE77B62DF7AB180;P90;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;1F8D5F9513110C41;QBZ-191;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;52E43BD8C469B3C4;SPR-15HB;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;64C9D5BAA3690744;G36K;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;7BDAD0BC50D1BCC5;HK416D;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;5D44179A3BFA0A48;Golden Desert Eagle;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;537161B97CE0E276;AA-12;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;54FDB963BD185DB3;SCAR-H;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;77AADA68FBFBA7D6;SPAS-12;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0032C3130B8E1073;Mk14 EBR;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0951CA5133B0E97E;M249;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;04C2155A86A80DE9;Vector 45;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;34C1351F6E9B8957;FN Evolys;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;4A572B353F96FC1A;Taurus 500;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;5D1501CB400C7266;AI AWP;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;5FDBB9F6A07C3674;M95;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;55335C39809AC85F;M107;Shop;ja;Waffe;;später streichen
+gun_shop.snbt;0CD7AE8485CD8DEE;Minigun;Shop;ja;Waffe;;später streichen
+horde_leaders.snbt;759F322FE37CCFCB;Cut Off the Head;Meilenstein;nein;Munition;;in die Story verschieben
+horde_leaders.snbt;61F7155F9F2EE573;Läufer;Nebenquest;nein;Munition+Aufsatz;;in die Story verschieben
+horde_leaders.snbt;03BF1AFFE00EBB9A;Brecher;Nebenquest;nein;Munition+Aufsatz;;in die Story verschieben
+horde_leaders.snbt;5BFD133955D3F1B3;Spucker;Nebenquest;nein;Munition+Aufsatz;;in die Story verschieben
+horde_leaders.snbt;55D5A25B49AC6DD9;Schreier;Nebenquest;nein;Munition+Aufsatz;;in die Story verschieben
+horde_leaders.snbt;5783ACCF72DD9EE5;Kriecher;Nebenquest;nein;Aufsatz+Sonstiges;;in die Story verschieben
+horde_leaders.snbt;235B331928692D53;Platzer;Nebenquest;nein;Munition+Sonstiges;;in die Story verschieben
+horde_leaders.snbt;01023600407B8C0D;Leader Hunter;Meilenstein;nein;Munition+Aufsatz;;in die Story verschieben
+long_term.snbt;03285EE76537610B;Frequent Flyer;Meilenstein;nein;Sonstiges;;kürzen
+long_term.snbt;5E70AB1E24918006;Cross-Country;Meilenstein;nein;Sonstiges;03285EE76537610B (Frequent Flyer);kürzen
+long_term.snbt;10EB083F2C29FB8C;Skyward Bound;Meilenstein;nein;Sonstiges;5E70AB1E24918006 (Cross-Country);kürzen
+long_term.snbt;7878C40AF9A36642;Sky Legend;Meilenstein;nein;Waffe+Munition+Sonstiges;;kürzen
+long_term.snbt;0CDB062425435A95;Hunter I;Meilenstein;nein;Munition+Sonstiges;;kürzen
+long_term.snbt;4251BEE2044BAA43;Hunter II;Meilenstein;nein;Munition+Sonstiges;;kürzen
+long_term.snbt;7F717418E74CCED5;Hunter III;Meilenstein;nein;Waffe+Munition+Sonstiges;;kürzen
+long_term.snbt;029BEA111D722D8E;Hunter IV;Meilenstein;nein;Waffe+Munition+Sonstiges;;kürzen
+long_term.snbt;1204AF34F27F2439;Deep Warden;Meilenstein;nein;Aufsatz+Sonstiges;;kürzen
+long_term.snbt;758838C32890EA06;Sun Spirit;Meilenstein;nein;Aufsatz+Sonstiges;;kürzen
+long_term.snbt;649E6705DF8C3648;Valkyrie Queen;Meilenstein;nein;Aufsatz+Sonstiges;;kürzen
+long_term.snbt;7511323E5BFE5A8F;Monster Hunter;Meilenstein;nein;Sonstiges;;kürzen
+long_term.snbt;0BD9DF10F5006C4E;World Traveler;Meilenstein;nein;Sonstiges;;kürzen
+long_term.snbt;4B5252B1BB9D54CC;Mansion Raider;Nebenquest;nein;Sonstiges;;kürzen
+long_term.snbt;2551948ED02A0F51;Bastion Breaker;Nebenquest;nein;Sonstiges;;kürzen
+long_term.snbt;4CCDEF3DED84741E;Settled In;Füller;nein;Sonstiges;;kürzen
+long_term.snbt;3A99A1DC6FAB58C4;Veteran;Füller;nein;Sonstiges;4CCDEF3DED84741E (Settled In);kürzen
+long_term.snbt;0DE08B2C0BDD9BA3;Lifer;Füller;nein;Sonstiges;3A99A1DC6FAB58C4 (Veteran);kürzen
+long_term.snbt;7C3BF32BB744D488;Sky Dweller;Füller;nein;Sonstiges;0DE08B2C0BDD9BA3 (Lifer);kürzen
+nether.snbt;168DA6816667B855;Through the Portal;Meilenstein;nein;Raketen;;zusammenlegen
+nether.snbt;183BF31C63811D9D;Blaze Runner;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+nether.snbt;6B8C70ADC9762ED1;Bone Crusher;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+nether.snbt;19BC25CB17B35928;Hoglin Hunt;Nebenquest;nein;Waffe+Munition+Raketen;183BF31C63811D9D (Blaze Runner);zusammenlegen
+nether.snbt;1ED6A6C7FEDCCADC;Brute Force;Nebenquest;nein;Waffe+Munition+Raketen;6B8C70ADC9762ED1 (Bone Crusher);zusammenlegen
+overworld.snbt;09391A612D8F2575;Zombie Stopper;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+overworld.snbt;1AA78B4DBC67809D;Web Cutter;Nebenquest;nein;Waffe+Munition+Raketen;09391A612D8F2575 (Zombie Stopper);zusammenlegen
+overworld.snbt;566E624606DC504D;Creeper Crowd;Nebenquest;nein;Waffe+Munition+Raketen;09391A612D8F2575 (Zombie Stopper);zusammenlegen
+overworld.snbt;1633885F7172DB0B;Raid Breaker;Nebenquest;nein;Waffe+Munition+Raketen;1AA78B4DBC67809D (Web Cutter) 566E624606DC504D (Creeper Crowd);zusammenlegen
+overworld.snbt;2F2B7563EAEF2518;Beast Slayer;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+rockets.snbt;1B4DE217C9491397;Rockets for Gunpowder;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+rockets.snbt;2E5074784EE0FE2D;Rockets for Gunpowder x16;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+rockets.snbt;155AB9A851905411;Rockets for Rotten Flesh;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+rockets.snbt;7A21D0A2A3C48137;Rockets for Rotten Flesh x16;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+rockets.snbt;6BB11597E46DB8A1;Rockets for Bone;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+rockets.snbt;0844CAA0B32F50A5;Rockets for Bone x16;Shop;ja;Raketen;;"kürzen; Einzel+Stack zusammenlegen"
+start_here.snbt;466D6EB24C1F19D8;Welcome Aboard;Tutorial/Einstieg;nein;Raketen+Sonstiges;;behalten
+story_ashen_skyways.snbt;4880C8248029A9AF;Eisern aber weich;Story;nein;Sonstiges;;behalten
+story_ashen_skyways.snbt;6A5F64528425C9FB;Kupferpfeil;Story;nein;Munition;;behalten
+story_ashen_skyways.snbt;7EB10CEDF0E4C79D;Schwerter und Kugeln;Story;nein;Sonstiges;4880C8248029A9AF (Eisern aber weich) 6A5F64528425C9FB (Kupferpfeil);behalten
+the_end.snbt;745543AE7A9B21FE;The Final Frontier;Meilenstein;nein;Raketen;;zusammenlegen
+the_end.snbt;222E49F4EBEAA459;Enderman Ambush;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+the_end.snbt;289BF6FFDE15F787;Shell Game;Nebenquest;nein;Waffe+Munition+Raketen;;zusammenlegen
+the_end.snbt;11B7603723F62690;End City Raid;Nebenquest;nein;Waffe+Munition+Raketen;222E49F4EBEAA459 (Enderman Ambush);"zusammenlegen; doppeltes Ziel"
+the_end.snbt;4D363E6B79A4BB1D;Dragon's End;Nebenquest;nein;Waffe+Munition+Raketen;289BF6FFDE15F787 (Shell Game);"zusammenlegen; doppeltes Ziel"

@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpack_upgrades"
+	group: "258CD569623A7A73"
+	icon: "travelersbackpack:standard"
+	id: "0DDD60132F96AA87"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Clear out 25 zombies and your bag learns to grab loot by itself."]
+			icon: "travelersbackpack:pickup_upgrade"
+			id: "5B6FF38B41415A2C"
+			rewards: [{
+				auto: "no_toast"
+				id: "2CAC8AFFC54B45A5"
+				item: "travelersbackpack:pickup_upgrade"
+				type: "item"
+			}]
+			subtitle: "Pickup Upgrade"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "32709CC5DFFA7F92"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Sticky Fingers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Put 20 skeletons down. A crafting grid for the road is your reward."]
+			icon: "travelersbackpack:crafting_upgrade"
+			id: "2B62A3AD9DA8238F"
+			rewards: [{
+				auto: "no_toast"
+				id: "3E14BE535893B805"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			subtitle: "Crafting Upgrade"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "24B09E64A6408CA5"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Portable Workbench"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Hand over 32 cooked beef and the bag will feed you on its own."]
+			icon: "travelersbackpack:feeding_upgrade"
+			id: "68B75B48E99F73F2"
+			rewards: [{
+				auto: "no_toast"
+				id: "5A568FBDC94F6440"
+				item: "travelersbackpack:feeding_upgrade"
+				type: "item"
+			}]
+			subtitle: "Feeding Upgrade"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "36A23E238E3B1C77"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "Never Hungry"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68B75B48E99F73F2"]
+			description: ["Catch a fish in a bucket. Two fluid tanks for your pack."]
+			icon: "travelersbackpack:tanks_upgrade"
+			id: "6B62E354C59220FA"
+			rewards: [{
+				auto: "no_toast"
+				id: "49A56B19D521E5A1"
+				item: "travelersbackpack:tanks_upgrade"
+				type: "item"
+			}]
+			subtitle: "Tanks Upgrade"
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				id: "4766CD8D136FAE69"
+				type: "advancement"
+			}]
+			title: "Liquid Cargo"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Step into the Nether and carry your own furnace home."]
+			icon: "travelersbackpack:furnace_upgrade"
+			id: "7A2A1515F50F169C"
+			rewards: [{
+				auto: "no_toast"
+				id: "049D3E8474F2A7DC"
+				item: "travelersbackpack:furnace_upgrade"
+				type: "item"
+			}]
+			subtitle: "Furnace Upgrade"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "34920FBD01F40072"
+				type: "dimension"
+			}]
+			title: "Hot Pocket"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Feed the smoker 24 cooked porkchops to prove you know the craft."]
+			icon: "travelersbackpack:smoker_upgrade"
+			id: "6DB61A74C828FB7D"
+			rewards: [{
+				auto: "no_toast"
+				id: "49AF8AF67A696821"
+				item: "travelersbackpack:smoker_upgrade"
+				type: "item"
+			}]
+			subtitle: "Smoker Upgrade"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "6B4697BF2228BED3"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			title: "Smokehouse"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Burn down 15 blazes. Your reward smelts ores in a flash."]
+			icon: "travelersbackpack:blast_furnace_upgrade"
+			id: "2B298B98CACDC066"
+			rewards: [{
+				auto: "no_toast"
+				id: "4B2044B7FCCE984B"
+				item: "travelersbackpack:blast_furnace_upgrade"
+				type: "item"
+			}]
+			subtitle: "Blast Furnace Upgrade"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "4175540D3AF57299"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Forge on Your Back"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Play a music disc in a meadow, then take the music with you."]
+			icon: "travelersbackpack:jukebox_upgrade"
+			id: "7F3D14272B9FE6B6"
+			rewards: [{
+				auto: "no_toast"
+				id: "71BCB6F4A4907B59"
+				item: "travelersbackpack:jukebox_upgrade"
+				type: "item"
+			}]
+			subtitle: "Jukebox Upgrade"
+			tasks: [{
+				advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				criterion: ""
+				id: "0402362D53C9EFC6"
+				type: "advancement"
+			}]
+			title: "Soundtrack of the Skies"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Take down 10 phantoms. Loot will fly to you afterwards."]
+			icon: "travelersbackpack:magnet_upgrade"
+			id: "126BEF73FECDE3B5"
+			rewards: [{
+				auto: "no_toast"
+				id: "2E47FB2539008943"
+				item: "travelersbackpack:magnet_upgrade"
+				type: "item"
+			}]
+			subtitle: "Magnet Upgrade"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "333E359DCF5E0589"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Gravity Well"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["126BEF73FECDE3B5"]
+			description: ["Banish 10 endermen. Junk goes into the void for good."]
+			icon: "travelersbackpack:void_upgrade"
+			id: "3F79A8AFBA701070"
+			rewards: [{
+				auto: "no_toast"
+				id: "0F85B9825E82767F"
+				item: "travelersbackpack:void_upgrade"
+				type: "item"
+			}]
+			subtitle: "Void Upgrade"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1865049C39A8B98F"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Black Hole"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F79A8AFBA701070"]
+			description: ["Reach the End and your hotbar will never run dry again."]
+			icon: "travelersbackpack:refill_upgrade"
+			id: "24521B1CB683ED3C"
+			rewards: [{
+				auto: "no_toast"
+				id: "599C145377CA9F95"
+				item: "travelersbackpack:refill_upgrade"
+				type: "item"
+			}]
+			subtitle: "Refill Upgrade"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "292BE01E4FC2D031"
+				type: "dimension"
+			}]
+			title: "Always Stocked"
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "Backpack Upgrades"
+}

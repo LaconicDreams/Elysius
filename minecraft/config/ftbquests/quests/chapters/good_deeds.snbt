@@ -1,0 +1,545 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "good_deeds"
+	group: "258CD569623A7A73"
+	icon: "minecraft:shulker_box"
+	id: "3D01BB5317AAC879"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Defend a village from a raid and earn its thanks."
+				"Reward: a red shulker box."
+			]
+			id: "7501BA2FF4F7E64E"
+			rewards: [{
+				id: "08E8FE0B984523EB"
+				item: {
+					Count: 1
+					id: "minecraft:red_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Hero's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "53B14831DBA5C8EF"
+				type: "advancement"
+			}]
+			title: "Hero of the Village"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Cure a zombie villager and give them their life back."
+				"Reward: a green shulker box."
+			]
+			id: "29D65D20E3B057C7"
+			rewards: [{
+				id: "59756BB6176DE581"
+				item: {
+					Count: 1
+					id: "minecraft:green_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Doctor's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "7E32AD513BB78F55"
+				type: "advancement"
+			}]
+			title: "Zombie Doctor"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Build an iron golem to guard a village."
+				"Reward: a light gray shulker box."
+			]
+			id: "3812F9FF44E02589"
+			rewards: [{
+				id: "6F3314DA3743B92C"
+				item: {
+					Count: 1
+					id: "minecraft:light_gray_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Guardian's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "3C37870D9072C8AA"
+				type: "advancement"
+			}]
+			title: "Hired Help"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Tame an animal and give it a home."
+				"Reward: a brown shulker box."
+			]
+			id: "7CF3E936E37A53F1"
+			rewards: [{
+				id: "516BF743874775BD"
+				item: {
+					Count: 1
+					id: "minecraft:brown_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Companion's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "24DB5A432B704E84"
+				type: "advancement"
+			}]
+			title: "Best Friends Forever"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Breed two animals."
+				"Reward: a pink shulker box."
+			]
+			id: "085396A2C05CD0E2"
+			rewards: [{
+				id: "4A6FD3E3B96029BB"
+				item: {
+					Count: 1
+					id: "minecraft:pink_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Keeper's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "148B390CDA5B4186"
+				type: "advancement"
+			}]
+			title: "Making a Family"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Plant a seed and watch it grow."
+				"Reward: a lime shulker box."
+			]
+			id: "784305FAA0295D6E"
+			rewards: [{
+				id: "58741F928C957F87"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Gardener's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "0E58F1A951B3E481"
+				type: "advancement"
+			}]
+			title: "A Seedy Place"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Collect honey from a hive without angering the bees."
+				"Reward: a yellow shulker box."
+			]
+			id: "364150805F5E36E4"
+			rewards: [{
+				id: "120E5509E2DBAC88"
+				item: {
+					Count: 1
+					id: "minecraft:yellow_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Beekeeper's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/safely_harvest_honey"
+				criterion: ""
+				id: "1C2CF6D202F37043"
+				type: "advancement"
+			}]
+			title: "Bee Our Guest"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Move a bee nest, bees and all, with Silk Touch."
+				"Reward: an orange shulker box."
+			]
+			id: "12EBAAFBA40707DD"
+			rewards: [{
+				id: "35B25523FB00EC58"
+				item: {
+					Count: 1
+					id: "minecraft:orange_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Nest Mover's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				id: "3A798A493296A2A9"
+				type: "advancement"
+			}]
+			title: "Total Beelocation"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Catch a fish to feed someone."
+				"Reward: a cyan shulker box."
+			]
+			id: "75638E32A875D198"
+			rewards: [{
+				id: "65E10F951EFE7AA9"
+				item: {
+					Count: 1
+					id: "minecraft:cyan_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Angler's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "556B7D09CC7775D1"
+				type: "advancement"
+			}]
+			title: "Fishy Business"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Trade with a villager."
+				"Reward: a blue shulker box."
+			]
+			id: "7C70CDA18A6E01D0"
+			rewards: [{
+				id: "19D1600205CF4F60"
+				item: {
+					Count: 1
+					id: "minecraft:blue_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Trader's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "1C8FCF793CE33CA3"
+				type: "advancement"
+			}]
+			title: "A Fair Deal"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Tame every kind of cat."
+				"Reward: a white shulker box."
+			]
+			id: "615C28755FE70816"
+			rewards: [{
+				id: "4DE6ECE875D351F9"
+				item: {
+					Count: 1
+					id: "minecraft:white_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Cat Keeper's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "33B45CCB2F84FDE2"
+				type: "advancement"
+			}]
+			title: "A Complete Catalogue"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Breed every kind of animal."
+				"Reward: a light blue shulker box."
+			]
+			id: "50B3AE4140A351E8"
+			rewards: [{
+				id: "30D8DC6742E0C475"
+				item: {
+					Count: 1
+					id: "minecraft:light_blue_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Ark Builder's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "71B0CA631ECB0722"
+				type: "advancement"
+			}]
+			title: "Two by Two"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Sleep in a bed and let the night pass."
+				"Reward: a purple shulker box."
+			]
+			id: "3662876333132116"
+			rewards: [{
+				id: "7EECD044852A6006"
+				item: {
+					Count: 1
+					id: "minecraft:purple_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Dreamer's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "763B9B22AA0B1433"
+				type: "advancement"
+			}]
+			title: "Sweet Dreams"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Build a beacon and light up the land."
+				"Reward: a black shulker box."
+			]
+			id: "0F26EF330236D1D9"
+			rewards: [{
+				id: "50547A32FEC2E703"
+				item: {
+					Count: 1
+					id: "minecraft:black_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Lightkeeper's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "698877EC4C65BDEF"
+				type: "advancement"
+			}]
+			title: "Bring Home the Beacon"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Protect a villager from lightning with a rod."
+				"Reward: a gray shulker box."
+			]
+			id: "4AC605D4CEC93332"
+			rewards: [{
+				id: "0ED84A04C46CE069"
+				item: {
+					Count: 1
+					id: "minecraft:gray_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Protector's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+				id: "5AE64F4409F1FBA2"
+				type: "advancement"
+			}]
+			title: "Surge Protector"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Eat everything edible, and stay healthy."
+				"Reward: a magenta shulker box."
+			]
+			id: "7A45D7B22C415ADC"
+			rewards: [{
+				id: "63B7D140811E064F"
+				item: {
+					Count: 1
+					id: "minecraft:magenta_shulker_box"
+					tag: {
+						display: {
+							Name: "{\"text\": \"Cook's Box\", \"italic\": false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good deed"
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				id: "5D88E115300257DE"
+				type: "advancement"
+			}]
+			title: "A Balanced Diet"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"29D65D20E3B057C7"
+				"3812F9FF44E02589"
+				"7CF3E936E37A53F1"
+				"784305FAA0295D6E"
+				"364150805F5E36E4"
+				"75638E32A875D198"
+				"7C70CDA18A6E01D0"
+				"50B3AE4140A351E8"
+				"3662876333132116"
+			]
+			description: [
+				"Every deed done. The whole community knows your name."
+				"Check this off to claim the last box."
+			]
+			id: "3759C73CE02AD330"
+			rewards: [
+				{
+					id: "4086F362DEE7C5D8"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_box"
+						tag: {
+							display: {
+								Name: "{\"text\": \"Pillar of the Community\", \"italic\": false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5E56410142ADE85C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5D0B9AC7A6F302AE"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "Good deed, finale"
+			tasks: [{
+				id: "40F6C2D7509BFA00"
+				type: "checkmark"
+			}]
+			title: "Pillar of the Community"
+			x: 2.25d
+			y: 6.5d
+		}
+	]
+	title: "Good Deeds"
+}

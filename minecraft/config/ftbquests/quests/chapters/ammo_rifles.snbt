@@ -1,0 +1,668 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "ammo_rifles"
+	group: "12676BC35DAABE4A"
+	icon: {
+		Count: 1
+		id: "tacz:ammo"
+		tag: {
+			AmmoId: "tacz:556x45"
+		}
+	}
+	id: "1A0FA7B07C8A9678"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 4 rounds of 5.56x45."
+				"Fits: AUG, G36K, HK416D, M16A1, M16A4, M249, M4A1, SCAR-L, SPR-15HB"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+			id: "3A94CF80EA9208C8"
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "1B28C9FEC8139D5F"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AUG, G36K, HK416D +6"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "141A1A8AFD994347"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.56x45 Ammo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"15x Iron Ingot = 60 rounds of 5.56x45."
+				"Fits: AUG, G36K, HK416D, M16A1, M16A4, M249, M4A1, SCAR-L, SPR-15HB"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+			id: "291F93328BFF656D"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "2BF025FB4BB83C01"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AUG, G36K, HK416D +6"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "534295B77D8F3061"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.56x45 Ammo x60"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of 7.62x39."
+				"Fits: AK-47, RPK, SKS Tactical, Type 81"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+			id: "12C88C9288A7DEC1"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "4D95DFFEC9ED3979"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AK-47, RPK, SKS Tactical +1"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0293D68C6A005B57"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.62x39 Ammo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"20x Iron Ingot = 60 rounds of 7.62x39."
+				"Fits: AK-47, RPK, SKS Tactical, Type 81"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+			id: "72BA717B61E2D96D"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "700A77B5C04A297A"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: AK-47, RPK, SKS Tactical +1"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "0DBDCC6687CF50DD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.62x39 Ammo x60"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 4 rounds of 5.45x39."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:545x39"
+				}
+			}
+			id: "3583867749817882"
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "09EA619CEE2F2991"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:545x39"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3BC898A598F74AAA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.45x39 Ammo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"15x Iron Ingot = 60 rounds of 5.45x39."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:545x39"
+				}
+			}
+			id: "3E2146DAFD47A6A6"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "3E039055B721A2F4"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:545x39"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "758BE45DF8466255"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.45x39 Ammo x60"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 4 rounds of 5.8x42."
+				"Fits: QBZ-191, QBZ-95"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:58x42"
+				}
+			}
+			id: "0BED1DCB8FA6E6A4"
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "742CE6380C1FD2DF"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:58x42"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: QBZ-191, QBZ-95"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2A00A1CB99827935"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.8x42 Ammo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"15x Iron Ingot = 60 rounds of 5.8x42."
+				"Fits: QBZ-191, QBZ-95"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:58x42"
+				}
+			}
+			id: "52CE09DE332875E8"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "1E23C959653F9509"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:58x42"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: QBZ-191, QBZ-95"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "4156DF9974C949BC"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "5.8x42 Ammo x60"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of .308."
+				"Fits: FN Evolys, FN FAL, HK G3, Minigun, Mk14 EBR, SCAR-H"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+			id: "0C991BEA537AC95F"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "23EBA7947D8B0C41"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:308"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: FN Evolys, FN FAL, HK G3 +3"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "28F01B6D9F1C28D5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".308 Ammo"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"16x Iron Ingot = 48 rounds of .308."
+				"Fits: FN Evolys, FN FAL, HK G3, Minigun, Mk14 EBR, SCAR-H"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+			id: "093EB90B7D2CB5E3"
+			rewards: [{
+				auto: "no_toast"
+				count: 48
+				id: "1ED1CF9DA3F88133"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:308"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: FN Evolys, FN FAL, HK G3 +3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "725DA5EC94FB9369"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: ".308 Ammo x48"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of 6.8x51 FURY."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:68x51fury"
+				}
+			}
+			id: "7C85274E23C56BCD"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "55A99AD7FC1EE3CB"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:68x51fury"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5A85C358217ACE10"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "6.8x51 FURY Ammo"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"20x Iron Ingot = 60 rounds of 6.8x51 FURY."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:68x51fury"
+				}
+			}
+			id: "2BEA3F1FF623D20C"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "3C605A5F792852FF"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:68x51fury"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "358513DB99E7044E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "6.8x51 FURY Ammo x60"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of 7.62x54R."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x54"
+				}
+			}
+			id: "421D4288127B544C"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "72C949C9802DD8E5"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x54"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1211B7D1BB21FC45"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.62x54R Ammo"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"20x Iron Ingot = 60 rounds of 7.62x54R."
+				"Fits: no gun in the installed gun packs (other packs may use it)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x54"
+				}
+			}
+			id: "6A9F94514EAC113B"
+			rewards: [{
+				auto: "no_toast"
+				count: 60
+				id: "042004E41B01AA90"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x54"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "No gun uses this yet"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "49F9B248FC4666BB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.62x54R Ammo x60"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"1x Iron Ingot = 3 rounds of 7.92x57."
+				"Fits: Kar98k"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:792x57"
+				}
+			}
+			id: "522DEE3109DF34F2"
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "6DD138A75013F61B"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:792x57"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Kar98k"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5C3CCC33CA506BBF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.92x57 Ammo"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"12x Iron Ingot = 36 rounds of 7.92x57."
+				"Fits: Kar98k"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:792x57"
+				}
+			}
+			id: "358FA111F8F3E026"
+			rewards: [{
+				auto: "no_toast"
+				count: 36
+				id: "323E76B24E79EDDF"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:792x57"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Uses: Kar98k"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				disable_toast: true
+				id: "16F13C6F646EF3AE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "7.92x57 Ammo x36"
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+	title: "Ammo: Rifles"
+}

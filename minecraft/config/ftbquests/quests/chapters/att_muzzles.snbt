@@ -1,0 +1,868 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "att_muzzles"
+	group: "5AD62D5B0AB5AA58"
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "tacz:muzzle_brake_cthulhu"
+		}
+	}
+	id: "21328AF682CCA820"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 5x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_cthulhu"
+				}
+			}
+			id: "04A79BA8C926E46B"
+			rewards: [{
+				auto: "no_toast"
+				id: "6E9C841E9DF9E1E2"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_cthulhu"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "59855A5DBFC9F4F6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "0246F719B0F8DE45"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Cthulhu Brake"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_cyclone_d2"
+				}
+			}
+			id: "0FA13DEE925C31D1"
+			rewards: [{
+				auto: "no_toast"
+				id: "728AC467765F626C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_cyclone_d2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "518744C97C829E60"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "69DA0A214AE1059B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Cyclone D2 Brake"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 4x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_mastiff_sg"
+				}
+			}
+			id: "61AE512795EFC9FD"
+			rewards: [{
+				auto: "no_toast"
+				id: "523E96603E25803A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_mastiff_sg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "2D3634FD8A9DD06B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "69D13C56030CA049"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Mastiff SG Brake"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 5x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_pioneer"
+				}
+			}
+			id: "44967E3A6FE6ED59"
+			rewards: [{
+				auto: "no_toast"
+				id: "5B8C9BCD0E595893"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_pioneer"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "1893CB3F32AE2430"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "6F96ABB4ECCA6991"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Pioneer Brake"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 15x Iron Ingot + 5x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_timeless50"
+				}
+			}
+			id: "0E86D1A06C55EEED"
+			rewards: [{
+				auto: "no_toast"
+				id: "0CB5AC469A21D52E"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_timeless50"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					disable_toast: true
+					id: "44CB1AD4D529A044"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "59CDC0668C7CE476"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "TIMELESS50 Brake"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 6x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_trex"
+				}
+			}
+			id: "3485D84338C60E09"
+			rewards: [{
+				auto: "no_toast"
+				id: "02A1ED741A6346E5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_trex"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "0B2800162A2B154F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "30BFC2237F7F427B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Trex Brake"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 20x Iron Ingot + 6x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_choke_sg"
+				}
+			}
+			id: "34ED68DE1250CB6B"
+			rewards: [{
+				auto: "no_toast"
+				id: "1DAF644B500ED61C"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_choke_sg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					disable_toast: true
+					id: "457A0B04347687DC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "4CA6AB4F1518F6DE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "SG Choke"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Gold Ingot."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_compensator_trident"
+				}
+			}
+			id: "5A7DFB312ED7878E"
+			rewards: [{
+				auto: "no_toast"
+				id: "2BB6CF7F4D0DE4A2"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_compensator_trident"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "5BEB13140AA993E3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "7E49EB20A6A87DF6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Trident Compensator"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 6x Leather + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_knight_qd"
+				}
+			}
+			id: "444EE11DC4C18FE6"
+			rewards: [{
+				auto: "no_toast"
+				id: "702211562FC569BB"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_knight_qd"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "0A70957BF073294D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "53CEE13FA3C774CD"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "0AB1342565E057EF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Knight QD Silencer"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_mirage"
+				}
+			}
+			id: "65BF138E43A8CEBA"
+			rewards: [{
+				auto: "no_toast"
+				id: "3CE608982B257081"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_mirage"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "6E625C9DCEF7BE92"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "6EAFC35431D682D1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Mirage Silencer"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 6x Leather + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_phantom_s1"
+				}
+			}
+			id: "387F1C0CFDBD12D7"
+			rewards: [{
+				auto: "no_toast"
+				id: "49408FC578D49D6A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_phantom_s1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "42D3F7ADDC23BF81"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "740F8A518C8762FA"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "0F2E7A3A80F37AF7"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Phantom S1 Silencer"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 14x Iron Ingot + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_ptilopsis"
+				}
+			}
+			id: "775A9AFCC2671B5C"
+			rewards: [{
+				auto: "no_toast"
+				id: "70279F516BDF4A54"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_ptilopsis"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					disable_toast: true
+					id: "468AD59A96721108"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "29BD0BE0F9907AAC"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Ptilopsis Silencer"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 18x Iron Ingot + 5x Leather + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_sg"
+				}
+			}
+			id: "12930ECE910B7B70"
+			rewards: [{
+				auto: "no_toast"
+				id: "4C22D9BF170A69C0"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_sg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					disable_toast: true
+					id: "23A9DED02E15B6CA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "6A6720530A508DFF"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "750D3E4589163DA2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "SG Silencer"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 6x Leather + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_ursus"
+				}
+			}
+			id: "2763B25CD30FF3DC"
+			rewards: [{
+				auto: "no_toast"
+				id: "7250EA2EAAD5E881"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_ursus"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "6529983B6A802F47"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "023505BE3C06CDFB"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "39C95155B00063C1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Ursus Silencer"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 16x Iron Ingot + 6x Leather + 2x Redstone Dust."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_vulture"
+				}
+			}
+			id: "5E08784E6E46B7A8"
+			rewards: [{
+				auto: "no_toast"
+				id: "53B6AD4C4EF634F5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_vulture"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					disable_toast: true
+					id: "5DE62E28F91438B8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "0C678EA431C6852C"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "2A29234474B492A8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Vulture Silencer"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Price: 10x Iron Ingot + 4x Leather + 2x White Wool."
+				"Hold a gun and press Z to fit it in the attachment screen."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_wraith"
+				}
+			}
+			id: "7112187F06A5B90D"
+			rewards: [{
+				auto: "no_toast"
+				id: "24CD7583FFE4D2E7"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_silencer_wraith"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Muzzle"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					disable_toast: true
+					id: "5436EE185BFAC726"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					disable_toast: true
+					id: "34FD759EABBF631B"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "0326A0C77DADDE8B"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			title: "Wraith Silencer"
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "Attachments: Muzzles"
+}

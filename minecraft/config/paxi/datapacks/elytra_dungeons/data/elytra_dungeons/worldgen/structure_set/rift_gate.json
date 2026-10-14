@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 903117455,
+    "separation": 24,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "elytra_dungeons:rift_gate",
+      "weight": 1
+    }
+  ]
+}

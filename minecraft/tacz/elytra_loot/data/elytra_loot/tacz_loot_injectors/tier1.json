@@ -1,0 +1,948 @@
+{
+ "loot_tables": [
+  "aether:chests/ruined_portal",
+  "betterdungeons:small_dungeon/chests/loot_piles",
+  "betterjungletemples:chests/campsite",
+  "dungeons_arise:chests/bandit_village/bandit_village_normal",
+  "dungeons_arise:chests/bandit_village/bandit_village_supply",
+  "dungeons_arise:chests/bandit_village/bandit_village_tents",
+  "dungeons_arise:chests/bathhouse/bathhouse_normal",
+  "dungeons_arise:chests/giant_mushroom/red_giant_mushroom",
+  "dungeons_arise:chests/giant_mushroom/twin_giant_mushroom",
+  "dungeons_arise:chests/greenwood_pub/greenwood_pub_normal",
+  "dungeons_arise:chests/illager_campsite/illager_campsite_supply",
+  "dungeons_arise:chests/lighthouse/lighthouse_top",
+  "dungeons_arise:chests/mines_treasure_small",
+  "dungeons_arise:chests/mushroom_house/mushroom_house_normal",
+  "dungeons_arise:chests/small_prairie_house/small_prairie_house_normal",
+  "dungeons_arise:chests/small_prairie_house/small_prairie_house_ruined",
+  "minecraft:chests/abandoned_mineshaft",
+  "minecraft:chests/igloo_chest",
+  "minecraft:chests/ruined_portal",
+  "minecraft:chests/shipwreck_supply",
+  "minecraft:chests/underwater_ruin_big",
+  "minecraft:chests/underwater_ruin_small",
+  "minecraft:chests/village/village_armorer",
+  "minecraft:chests/village/village_fletcher",
+  "minecraft:chests/village/village_toolsmith",
+  "minecraft:chests/village/village_weaponsmith",
+  "repurposed_structures:chests/igloos/grassy",
+  "repurposed_structures:chests/igloos/mangrove",
+  "repurposed_structures:chests/igloos/mushroom",
+  "repurposed_structures:chests/igloos/stone",
+  "repurposed_structures:chests/mineshafts/birch",
+  "repurposed_structures:chests/mineshafts/dark_forest",
+  "repurposed_structures:chests/mineshafts/desert",
+  "repurposed_structures:chests/mineshafts/icy",
+  "repurposed_structures:chests/mineshafts/jungle",
+  "repurposed_structures:chests/mineshafts/ocean",
+  "repurposed_structures:chests/mineshafts/savanna",
+  "repurposed_structures:chests/mineshafts/stone",
+  "repurposed_structures:chests/mineshafts/swamp",
+  "repurposed_structures:chests/mineshafts/taiga",
+  "repurposed_structures:chests/ruins/land_cold/small",
+  "repurposed_structures:chests/ruins/land_hot/small",
+  "repurposed_structures:chests/ruins/land_icy/small",
+  "repurposed_structures:chests/ruins/land_warm/small",
+  "repurposed_structures:chests/villages/crimson_weaponsmith",
+  "repurposed_structures:chests/villages/warped_weaponsmith",
+  "terralith:underground/chest"
+ ],
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:springfield1873\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:45_70\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 8,
+          "max": 16
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00546
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:db_short\",GunFireMode:\"BURST\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:12g\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 6,
+          "max": 12
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00468
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:taurus943\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:22wmr\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 11,
+          "max": 22
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00409
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:glock_17\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:9mm\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 17,
+          "max": 34
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00327
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:m9a4\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:9mm\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 17,
+          "max": 34
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00327
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:cz75\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:9mm\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 16,
+          "max": 32
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00327
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:m1911\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:45acp\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 10,
+          "max": 20
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00298
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:group",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tacz:modern_kinetic_gun",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{GunId:\"tacz:db_long\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+        }
+       ]
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tacz:ammo",
+       "functions": [
+        {
+         "function": "minecraft:set_nbt",
+         "tag": "{AmmoId:\"tacz:12g\"}"
+        },
+        {
+         "function": "minecraft:set_count",
+         "count": {
+          "type": "minecraft:uniform",
+          "min": 6,
+          "max": 12
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.00298
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:grip_rk6\"}"
+      }
+     ],
+     "weight": 1000
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:laser_compact\"}"
+      }
+     ],
+     "weight": 368
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:laser_nightstick\"}"
+      }
+     ],
+     "weight": 521
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:light_extended_mag_1\"}"
+      }
+     ],
+     "weight": 312
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_acro_pistol\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_acro_rifle\"}"
+      }
+     ],
+     "weight": 403
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_deltapoint_pistol\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_deltapoint_rifle\"}"
+      }
+     ],
+     "weight": 403
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_fastfire_pistol\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_fastfire_rifle\"}"
+      }
+     ],
+     "weight": 403
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_okp7\"}"
+      }
+     ],
+     "weight": 490
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_pk06_pistol\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_pk06_rifle\"}"
+      }
+     ],
+     "weight": 403
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_rmr_dot\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_sro_dot\"}"
+      }
+     ],
+     "weight": 595
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_srs_02\"}"
+      }
+     ],
+     "weight": 373
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_t1\"}"
+      }
+     ],
+     "weight": 575
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:attachment",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AttachmentId:\"tacz:sight_t2\"}"
+      }
+     ],
+     "weight": 394
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.06
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:12g\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 13
+       }
+      }
+     ],
+     "weight": 1000
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:22wmr\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 10,
+        "max": 22
+       }
+      }
+     ],
+     "weight": 333
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:308\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 17
+       }
+      }
+     ],
+     "weight": 545
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:30_06\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 13
+       }
+      }
+     ],
+     "weight": 167
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:338\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 10
+       }
+      }
+     ],
+     "weight": 83
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:357mag\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 17
+       }
+      }
+     ],
+     "weight": 667
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:45_70\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 17
+       }
+      }
+     ],
+     "weight": 83
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:45acp\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 1667
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:500mag\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 6,
+        "max": 15
+       }
+      }
+     ],
+     "weight": 333
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:50ae\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 17
+       }
+      }
+     ],
+     "weight": 667
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:50bmg\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 10
+       }
+      }
+     ],
+     "weight": 167
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:556x45\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 818
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:57x28\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 333
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:58x42\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 182
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:762x39\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 364
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:792x57\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 13
+       }
+      }
+     ],
+     "weight": 91
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tacz:ammo",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{AmmoId:\"tacz:9mm\"}"
+      },
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 9,
+        "max": 21
+       }
+      }
+     ],
+     "weight": 2000
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.15
+    }
+   ]
+  }
+ ]
+}

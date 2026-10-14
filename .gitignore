@@ -1,0 +1,46 @@
+# Elysius - what stays OUT of the GitHub repo (worlds, personal files, third-party jars, logs, caches, backups)
+
+# worlds and personal player files
+minecraft/saves/
+minecraft/screenshots/
+minecraft/options.txt
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/ops.json
+minecraft/whitelist.json
+minecraft/banned-*.json
+minecraft/xaero/
+minecraft/XaeroWaypoints_BACKUP*/
+minecraft/local/
+
+# third-party mod jars (their licences usually forbid re-uploading); the mod list stays in minecraft/mods/.index
+minecraft/mods/*.jar
+minecraft/mods/*.disabled
+minecraft/essential/
+minecraft/tacz/tacz_default_gun/
+minecraft/tacz/.export-state.json
+minecraft/tacz_backup/
+
+# logs, crash reports, caches
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/modernfix/
+minecraft/server-resource-packs/
+minecraft/.cache/
+minecraft/command_history.txt
+*.log
+questtools/__pycache__/
+questtools/.gamedata_cache.json
+questtools/*_report.txt
+questtools/backups/
+mod-check-report.txt
+
+# our backups and cleanup leftovers
+backup/
+_to_delete/
+
+# system files
+Thumbs.db
+desktop.ini

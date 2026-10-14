@@ -1,0 +1,11 @@
+{
+  "name": "elytra_silent",
+  "dimension-names": [
+    "elytra_dungeons:the_hollow",
+    "elytra_extras:vision"
+  ],
+  "mute": true,
+  "biome-selector": {
+    "always": false
+  }
+}

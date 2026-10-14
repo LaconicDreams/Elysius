@@ -1,0 +1,3 @@
+# HOOK (placeholder, not called yet): as a player. Later: offer Bote jobs from a certain rank on, e.g.
+#   execute if score @s bote_rang matches 4.. run function ...
+# and reward a finished job with:  function modpack:bote/rang/quelle/auftrag

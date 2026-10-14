@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "rockets"
+	group: "12676BC35DAABE4A"
+	icon: "minecraft:firework_rocket"
+	id: "7631FC9F6465F806"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["1x Gunpowder = 8 rockets."]
+			disable_toast: true
+			id: "1B4DE217C9491397"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "507FBD928E4EF595"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Firework rockets"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "69256C20B9AC8A7C"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Rockets for Gunpowder"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["16x Gunpowder = 128 rockets."]
+			disable_toast: true
+			id: "2E5074784EE0FE2D"
+			rewards: [
+				{
+					auto: "no_toast"
+					count: 64
+					id: "4DCFC6CA62441BE6"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					count: 64
+					id: "0988F06005EE9170"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Firework rockets, bulk"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "4B964DF4902C99C9"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Rockets for Gunpowder x16"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: ["1x Rotten Flesh = 1 rocket."]
+			disable_toast: true
+			id: "155AB9A851905411"
+			rewards: [{
+				auto: "no_toast"
+				id: "41CCF04AB78E9980"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Firework rockets"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "05E52D56B6C54103"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Rockets for Rotten Flesh"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["16x Rotten Flesh = 16 rockets."]
+			disable_toast: true
+			id: "7A21D0A2A3C48137"
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "47F16D96FB1F6EF8"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Firework rockets, bulk"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "6051693AE4CEBBB2"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Rockets for Rotten Flesh x16"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: ["1x Bone = 4 rockets."]
+			disable_toast: true
+			id: "6BB11597E46DB8A1"
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "3C16FCD15182E8D6"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Firework rockets"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1ECE82E195FABD5E"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Rockets for Bone"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["16x Bone = 64 rockets."]
+			disable_toast: true
+			id: "0844CAA0B32F50A5"
+			rewards: [{
+				auto: "no_toast"
+				count: 64
+				id: "0441C2C01A0DEA87"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Firework rockets, bulk"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "3A88F82B11F13D4A"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Rockets for Bone x16"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Rockets"
+}

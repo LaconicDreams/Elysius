@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "horde_leaders"
+	group: "258CD569623A7A73"
+	icon: "minecraft:zombie_head"
+	id: "056977F912361A29"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Every horde follows one leader. Kill it and the rest lose their nerve."
+				"Kill any horde leader."
+			]
+			icon: "minecraft:zombie_head"
+			id: "759F322FE37CCFCB"
+			rewards: [
+				{
+					count: 36
+					id: "5BB55BDB1870640C"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "3F56AB3D0D2644C3"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Any leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_any"
+				criterion: ""
+				id: "0A0B8C4F6F633F3C"
+				type: "advancement"
+			}]
+			title: "Cut Off the Head"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Fast and fragile. It sprints the moment it sees you."
+				"Counter: a shotgun at close range."
+			]
+			icon: "minecraft:sugar"
+			id: "61F7155F9F2EE573"
+			rewards: [
+				{
+					id: "4425C5F0DAAD0E3C"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_choke_sg"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "6ACD0B193710378C"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_laeufer"
+				criterion: ""
+				id: "2CBE1F675617FA16"
+				type: "advancement"
+			}]
+			title: "Läufer"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Wrapped in iron and almost impossible to knock back. Body shots barely scratch it."
+				"Counter: guns with high armour piercing (AI AWP, M95), FMJ ammo, headshots."
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "03BF1AFFE00EBB9A"
+			rewards: [
+				{
+					id: "4559A3B9269B9BD0"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_fmj"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "755AA501D03769F7"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:338"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_brecher"
+				criterion: ""
+				id: "7F71533636935437"
+				type: "advancement"
+			}]
+			title: "Brecher"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Keeps its distance and spits poison to drive you out of cover."
+				"Counter: a sniper rifle."
+			]
+			icon: "minecraft:spider_eye"
+			id: "5BFD133955D3F1B3"
+			rewards: [
+				{
+					id: "75079D9034BF2C5F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_standard_8x"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "5BBE7356B8A351A8"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:30_06"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_spucker"
+				criterion: ""
+				id: "0C67E068F715467F"
+				type: "advancement"
+			}]
+			title: "Spucker"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Its scream calls more of the dead. Loud gunfire makes it scream sooner."
+				"Counter: a suppressor, and kill it first."
+			]
+			icon: "minecraft:goat_horn"
+			id: "55D5A25B49AC6DD9"
+			rewards: [
+				{
+					id: "79C98FFB3D9AC3F1"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_ptilopsis"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "3F7B4D08B68FDC84"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_schreier"
+				criterion: ""
+				id: "1D8295EC79E8018C"
+				type: "advancement"
+			}]
+			title: "Schreier"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Low to the ground and invisible in the dark. If it grabs your legs, you will not get away quickly."
+				"Counter: light the area up, then finish it in melee."
+			]
+			icon: "minecraft:torch"
+			id: "5783ACCF72DD9EE5"
+			rewards: [
+				{
+					id: "584790067DF9E28A"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:laser_peq6"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "757807BB86CD4BD2"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_kriecher"
+				criterion: ""
+				id: "75FB5C7209ECD4FB"
+				type: "advancement"
+			}]
+			title: "Kriecher"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Swollen and ready to burst. When it dies, everything nearby gets hurt, zombies included."
+				"Counter: keep your distance."
+			]
+			icon: "minecraft:tnt"
+			id: "235B331928692D53"
+			rewards: [
+				{
+					count: 6
+					id: "56A069B87565EF33"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:40mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B1E6FAB053494CF"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			subtitle: "Horde leader"
+			tasks: [{
+				advancement: "modpack:leaders/kill_platzer"
+				criterion: ""
+				id: "59F807AF8C6A51FD"
+				type: "advancement"
+			}]
+			title: "Platzer"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: ["Kill one leader of every type."]
+			icon: "minecraft:zombie_head"
+			id: "01023600407B8C0D"
+			rewards: [
+				{
+					id: "78B1BEE3E25403D1"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_he"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7FD737AD68E482DE"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:50bmg"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "All six"
+			tasks: [
+				{
+					advancement: "modpack:leaders/kill_laeufer"
+					criterion: ""
+					id: "0442850F1F43A46C"
+					type: "advancement"
+				}
+				{
+					advancement: "modpack:leaders/kill_brecher"
+					criterion: ""
+					id: "5D96F08E2D31BFD2"
+					type: "advancement"
+				}
+				{
+					advancement: "modpack:leaders/kill_spucker"
+					criterion: ""
+					id: "74DC0B60E42465B9"
+					type: "advancement"
+				}
+				{
+					advancement: "modpack:leaders/kill_schreier"
+					criterion: ""
+					id: "583905D01F518327"
+					type: "advancement"
+				}
+				{
+					advancement: "modpack:leaders/kill_kriecher"
+					criterion: ""
+					id: "44242EDC8CB8F408"
+					type: "advancement"
+				}
+				{
+					advancement: "modpack:leaders/kill_platzer"
+					criterion: ""
+					id: "36AB1B9F8D7D91C2"
+					type: "advancement"
+				}
+			]
+			title: "Leader Hunter"
+			x: 3.75d
+			y: 4.0d
+		}
+	]
+	title: "Horde Leaders"
+}
